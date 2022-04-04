@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_QcJLkLPOEeyfa4_HrSyzbg" name="FilmifyUseCase">
+  <packagedElement xmi:type="uml:Package" xmi:id="_ZSAZALPOEeyfa4_HrSyzbg" name="System">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_e82b8LPOEeyfa4_HrSyzbg" name="SignInAsUser">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_e-snUbPUEeyfa4_HrSyzbg" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_qoWLAbPUEeyfa4_HrSyzbg" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_hPYbEbPVEeyfa4_HrSyzbg" name="ExtensionPoint3"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_0Tt4kLPeEeyfa4_HrSyzbg" name="ExtensionPoint4"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_p4YVYLPOEeyfa4_HrSyzbg" name="SearchMovie">
+      <extend xmi:type="uml:Extend" xmi:id="_hPYbELPVEeyfa4_HrSyzbg" extendedCase="_e82b8LPOEeyfa4_HrSyzbg" extensionLocation="_hPYbEbPVEeyfa4_HrSyzbg"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_uT9c8bPbEeyfa4_HrSyzbg" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_1nG6cbPbEeyfa4_HrSyzbg" name="ExtensionPoint3"/>
+      <include xmi:type="uml:Include" xmi:id="_KG1G8LPcEeyfa4_HrSyzbg" addition="_GL3GMLPcEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_1GYe4LPOEeyfa4_HrSyzbg" name="SignUp">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_iLRtgbPTEeyfa4_HrSyzbg" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_i9TAULPTEeyfa4_HrSyzbg" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_kQ0dsbPTEeyfa4_HrSyzbg" name="ExtensionPoint3"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_5PGAsLPOEeyfa4_HrSyzbg" name="WatchMovieTrailer">
+      <extend xmi:type="uml:Extend" xmi:id="_1nG6cLPbEeyfa4_HrSyzbg" extendedCase="_p4YVYLPOEeyfa4_HrSyzbg" extensionLocation="_1nG6cbPbEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_E-OhULPPEeyfa4_HrSyzbg" name="EditProfile">
+      <extend xmi:type="uml:Extend" xmi:id="_riVHALPUEeyfa4_HrSyzbg" extendedCase="_njcPkLPUEeyfa4_HrSyzbg" extensionLocation="_riVuELPUEeyfa4_HrSyzbg"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_NpxYULPTEeyfa4_HrSyzbg" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Rrp5YLPTEeyfa4_HrSyzbg" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_YSnmUbPTEeyfa4_HrSyzbg" name="ExtensionPoint3"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_gW8MobPUEeyfa4_HrSyzbg" name="ExtensionPoint4"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_hwVTYLPSEeyfa4_HrSyzbg" name="DeleteFriend">
+      <extend xmi:type="uml:Extend" xmi:id="_9lvpILPUEeyfa4_HrSyzbg" extendedCase="_s7D0gLPUEeyfa4_HrSyzbg" extensionLocation="_9lvpIbPUEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_yVZBILPSEeyfa4_HrSyzbg" name="RateMovie">
+      <extend xmi:type="uml:Extend" xmi:id="_nbzc4LPcEeyfa4_HrSyzbg" extendedCase="_GL3GMLPcEeyfa4_HrSyzbg" extensionLocation="_nb0D8LPcEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_1zdqgLPSEeyfa4_HrSyzbg" name="CommentMovie">
+      <extend xmi:type="uml:Extend" xmi:id="_qHuQkLPcEeyfa4_HrSyzbg" extendedCase="_GL3GMLPcEeyfa4_HrSyzbg" extensionLocation="_qHuQkbPcEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_5SG7oLPSEeyfa4_HrSyzbg" name="DeleteMovieComment">
+      <extend xmi:type="uml:Extend" xmi:id="_oHZXkLPcEeyfa4_HrSyzbg" extendedCase="_GL3GMLPcEeyfa4_HrSyzbg" extensionLocation="_oHZ-oLPcEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Aqtg4LPTEeyfa4_HrSyzbg" name="DeleteProfile">
+      <extend xmi:type="uml:Extend" xmi:id="_NpwxQLPTEeyfa4_HrSyzbg" extendedCase="_E-OhULPPEeyfa4_HrSyzbg" extensionLocation="_NpxYULPTEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_PbktILPTEeyfa4_HrSyzbg" name="ChangePassword">
+      <extend xmi:type="uml:Extend" xmi:id="_RrpSULPTEeyfa4_HrSyzbg" extendedCase="_E-OhULPPEeyfa4_HrSyzbg" extensionLocation="_Rrp5YLPTEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_UI-QYLPTEeyfa4_HrSyzbg" name="ChangeEmail">
+      <extend xmi:type="uml:Extend" xmi:id="_YSnmULPTEeyfa4_HrSyzbg" extendedCase="_E-OhULPPEeyfa4_HrSyzbg" extensionLocation="_YSnmUbPTEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_cUWWYLPTEeyfa4_HrSyzbg" name="EmailSignUp">
+      <extend xmi:type="uml:Extend" xmi:id="_iLRtgLPTEeyfa4_HrSyzbg" extendedCase="_1GYe4LPOEeyfa4_HrSyzbg" extensionLocation="_iLRtgbPTEeyfa4_HrSyzbg"/>
+      <include xmi:type="uml:Include" xmi:id="_db_-ILPXEeyfa4_HrSyzbg" addition="_l83ocLPWEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_eh2vwLPTEeyfa4_HrSyzbg" name="GoogleSignUp">
+      <extend xmi:type="uml:Extend" xmi:id="_i9SZQLPTEeyfa4_HrSyzbg" extendedCase="_1GYe4LPOEeyfa4_HrSyzbg" extensionLocation="_i9TAULPTEeyfa4_HrSyzbg"/>
+      <include xmi:type="uml:Include" xmi:id="_eA0icLPXEeyfa4_HrSyzbg" addition="_YTOi8LPWEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_f6uAILPTEeyfa4_HrSyzbg" name="FacebookSignUp">
+      <extend xmi:type="uml:Extend" xmi:id="_kQ0dsLPTEeyfa4_HrSyzbg" extendedCase="_1GYe4LPOEeyfa4_HrSyzbg" extensionLocation="_kQ0dsbPTEeyfa4_HrSyzbg"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_dfVbcbPWEeyfa4_HrSyzbg" name="ExtensionPoint2"/>
+      <include xmi:type="uml:Include" xmi:id="_ej2-ELPXEeyfa4_HrSyzbg" addition="_bFmj8LPWEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_njcPkLPUEeyfa4_HrSyzbg" name="GoToProfile">
+      <extend xmi:type="uml:Extend" xmi:id="_qoWLALPUEeyfa4_HrSyzbg" extendedCase="_e82b8LPOEeyfa4_HrSyzbg" extensionLocation="_qoWLAbPUEeyfa4_HrSyzbg"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_riVuELPUEeyfa4_HrSyzbg" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_xai3kLPUEeyfa4_HrSyzbg" name="ExtensionPoint3"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_L0_WEbPVEeyfa4_HrSyzbg" name="ExtensionPoint4"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_aRBvkbPaEeyfa4_HrSyzbg" name="ExtensionPoint5"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_jkcCYLPfEeyfa4_HrSyzbg" name="ExtensionPoint6"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_kJt5sbPfEeyfa4_HrSyzbg" name="ExtensionPoint7"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_s7D0gLPUEeyfa4_HrSyzbg" name="GoToFriendsList">
+      <extend xmi:type="uml:Extend" xmi:id="_xaiQgLPUEeyfa4_HrSyzbg" extendedCase="_njcPkLPUEeyfa4_HrSyzbg" extensionLocation="_xai3kLPUEeyfa4_HrSyzbg"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_9lvpIbPUEeyfa4_HrSyzbg" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_AjqLwLPVEeyfa4_HrSyzbg" name="ExtensionPoint3"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_QwEI8bPVEeyfa4_HrSyzbg" name="ExtensionPoint4"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_-FuJsLPUEeyfa4_HrSyzbg" name="BlockFriend">
+      <extend xmi:type="uml:Extend" xmi:id="_AjpksLPVEeyfa4_HrSyzbg" extendedCase="_s7D0gLPUEeyfa4_HrSyzbg" extensionLocation="_AjqLwLPVEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_FfRxMLPVEeyfa4_HrSyzbg" name="GoToBlockLists">
+      <extend xmi:type="uml:Extend" xmi:id="_L0_WELPVEeyfa4_HrSyzbg" extendedCase="_njcPkLPUEeyfa4_HrSyzbg" extensionLocation="_L0_WEbPVEeyfa4_HrSyzbg"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_8hLGYbPXEeyfa4_HrSyzbg" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_OR7SkLPVEeyfa4_HrSyzbg" name="ReportFriend">
+      <extend xmi:type="uml:Extend" xmi:id="_QwEI8LPVEeyfa4_HrSyzbg" extendedCase="_s7D0gLPUEeyfa4_HrSyzbg" extensionLocation="_QwEI8bPVEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_VJZgsLPVEeyfa4_HrSyzbg" name="UnblockUser">
+      <extend xmi:type="uml:Extend" xmi:id="_8hLGYLPXEeyfa4_HrSyzbg" extendedCase="_FfRxMLPVEeyfa4_HrSyzbg" extensionLocation="_8hLGYbPXEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_YTOi8LPWEeyfa4_HrSyzbg" name="GoogleAuthVerification"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_bFmj8LPWEeyfa4_HrSyzbg" name="FacebookAuthVeryfication"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_l83ocLPWEeyfa4_HrSyzbg" name="IfUserExistsCheck">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_yxDFkbPWEeyfa4_HrSyzbg" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_zXEjwLPWEeyfa4_HrSyzbg" name="ExtensionPoint3"/>
+      <include xmi:type="uml:Include" xmi:id="_prYFELPXEeyfa4_HrSyzbg" addition="_rRWZ0LPWEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_rRWZ0LPWEeyfa4_HrSyzbg" name="IfValidPasswordCheck">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_A3SAcLPXEeyfa4_HrSyzbg" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_BgBbcbPXEeyfa4_HrSyzbg" name="ExtensionPoint3"/>
+      <include xmi:type="uml:Include" xmi:id="_lVzzALPXEeyfa4_HrSyzbg" addition="_6SjIILPWEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_vWOkgLPWEeyfa4_HrSyzbg" name="UserAlreadyExistsError">
+      <extend xmi:type="uml:Extend" xmi:id="_yxDFkLPWEeyfa4_HrSyzbg" extendedCase="_l83ocLPWEeyfa4_HrSyzbg" extensionLocation="_yxDFkbPWEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_6SjIILPWEeyfa4_HrSyzbg" name="IfPasswordsMathCheck">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Ked9ILPXEeyfa4_HrSyzbg" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Lchg0bPXEeyfa4_HrSyzbg" name="ExtensionPoint3"/>
+      <include xmi:type="uml:Include" xmi:id="_rvYkMLPXEeyfa4_HrSyzbg" addition="_ID3i8LPXEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_-yZXkLPWEeyfa4_HrSyzbg" name="NotValidPasswordError">
+      <extend xmi:type="uml:Extend" xmi:id="_A3RZYLPXEeyfa4_HrSyzbg" extendedCase="_rRWZ0LPWEeyfa4_HrSyzbg" extensionLocation="_A3SAcLPXEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_DzR3gLPXEeyfa4_HrSyzbg" name="PasswordsDontMatchError">
+      <extend xmi:type="uml:Extend" xmi:id="_Lchg0LPXEeyfa4_HrSyzbg" extendedCase="_6SjIILPWEeyfa4_HrSyzbg" extensionLocation="_Lchg0bPXEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ID3i8LPXEeyfa4_HrSyzbg" name="SignUpSuccess"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_X2SygLPaEeyfa4_HrSyzbg" name="GoToPlaylists">
+      <extend xmi:type="uml:Extend" xmi:id="_aRBvkLPaEeyfa4_HrSyzbg" extendedCase="_njcPkLPUEeyfa4_HrSyzbg" extensionLocation="_aRBvkbPaEeyfa4_HrSyzbg"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_eO7vkLPaEeyfa4_HrSyzbg" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_isXkMLPaEeyfa4_HrSyzbg" name="ExtensionPoint3"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_06ruwbPaEeyfa4_HrSyzbg" name="ExtensionPoint4"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ccRfILPaEeyfa4_HrSyzbg" name="AddNewPlaylist">
+      <extend xmi:type="uml:Extend" xmi:id="_eO7IgLPaEeyfa4_HrSyzbg" extendedCase="_X2SygLPaEeyfa4_HrSyzbg" extensionLocation="_eO7vkLPaEeyfa4_HrSyzbg"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_EjSzoLPhEeyfa4_HrSyzbg" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_e11-kLPaEeyfa4_HrSyzbg" name="EditExistingPlaylist">
+      <extend xmi:type="uml:Extend" xmi:id="_isW9ILPaEeyfa4_HrSyzbg" extendedCase="_X2SygLPaEeyfa4_HrSyzbg" extensionLocation="_isXkMLPaEeyfa4_HrSyzbg"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_sRPMsLPaEeyfa4_HrSyzbg" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_sxtcgbPaEeyfa4_HrSyzbg" name="ExtensionPoint3"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_dlErgLPgEeyfa4_HrSyzbg" name="ExtensionPoint4"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_nKnRILPaEeyfa4_HrSyzbg" name="AddMovieToCurrentPlaylist">
+      <extend xmi:type="uml:Extend" xmi:id="_sROloLPaEeyfa4_HrSyzbg" extendedCase="_e11-kLPaEeyfa4_HrSyzbg" extensionLocation="_sRPMsLPaEeyfa4_HrSyzbg"/>
+      <extend xmi:type="uml:Extend" xmi:id="_9DbXgLPaEeyfa4_HrSyzbg" extendedCase="_xsvMELPaEeyfa4_HrSyzbg" extensionLocation="_9Db-kLPaEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_pR674LPaEeyfa4_HrSyzbg" name="DeleteMovieFromCurrentPlaylist">
+      <extend xmi:type="uml:Extend" xmi:id="_sxtcgLPaEeyfa4_HrSyzbg" extendedCase="_e11-kLPaEeyfa4_HrSyzbg" extensionLocation="_sxtcgbPaEeyfa4_HrSyzbg"/>
+      <extend xmi:type="uml:Extend" xmi:id="_9k6T8LPaEeyfa4_HrSyzbg" extendedCase="_xsvMELPaEeyfa4_HrSyzbg" extensionLocation="_9k6T8bPaEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_xsvMELPaEeyfa4_HrSyzbg" name="EditFavouritesList">
+      <extend xmi:type="uml:Extend" xmi:id="_06ruwLPaEeyfa4_HrSyzbg" extendedCase="_X2SygLPaEeyfa4_HrSyzbg" extensionLocation="_06ruwbPaEeyfa4_HrSyzbg"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_9Db-kLPaEeyfa4_HrSyzbg" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_9k6T8bPaEeyfa4_HrSyzbg" name="ExtensionPoint3"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_fx13ULPbEeyfa4_HrSyzbg" name="SearchMovieAsGuest">
+      <extend xmi:type="uml:Extend" xmi:id="_uT9c8LPbEeyfa4_HrSyzbg" extendedCase="_p4YVYLPOEeyfa4_HrSyzbg" extensionLocation="_uT9c8bPbEeyfa4_HrSyzbg"/>
+      <include xmi:type="uml:Include" xmi:id="_fhaLcLPXEeyfa4_HrSyzbg" addition="_5PGAsLPOEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_GL3GMLPcEeyfa4_HrSyzbg" name="ViewCurrentMovie">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_h6eiUbPcEeyfa4_HrSyzbg" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_kLqh0LPcEeyfa4_HrSyzbg" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_k8xOobPcEeyfa4_HrSyzbg" name="ExtensionPoint3"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_mbxjQLPcEeyfa4_HrSyzbg" name="ExtensionPoint4"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_nb0D8LPcEeyfa4_HrSyzbg" name="ExtensionPoint5"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_oHZ-oLPcEeyfa4_HrSyzbg" name="ExtensionPoint6"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_qHuQkbPcEeyfa4_HrSyzbg" name="ExtensionPoint7"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Pmso8LPcEeyfa4_HrSyzbg" name="AddMovieToPlaylist">
+      <extend xmi:type="uml:Extend" xmi:id="_k8xOoLPcEeyfa4_HrSyzbg" extendedCase="_GL3GMLPcEeyfa4_HrSyzbg" extensionLocation="_k8xOobPcEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_TgXCILPcEeyfa4_HrSyzbg" name="UndoMovieRating">
+      <extend xmi:type="uml:Extend" xmi:id="_mbw8MLPcEeyfa4_HrSyzbg" extendedCase="_GL3GMLPcEeyfa4_HrSyzbg" extensionLocation="_mbxjQLPcEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_WopowLPcEeyfa4_HrSyzbg" name="AddOpinionAboutMovie">
+      <extend xmi:type="uml:Extend" xmi:id="_h6eiULPcEeyfa4_HrSyzbg" extendedCase="_GL3GMLPcEeyfa4_HrSyzbg" extensionLocation="_h6eiUbPcEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Z1Z4oLPcEeyfa4_HrSyzbg" name="DeleteOpinionAboutMovie">
+      <extend xmi:type="uml:Extend" xmi:id="_kLp6wLPcEeyfa4_HrSyzbg" extendedCase="_GL3GMLPcEeyfa4_HrSyzbg" extensionLocation="_kLqh0LPcEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_CdV7ILPeEeyfa4_HrSyzbg" name="SearchUser">
+      <extend xmi:type="uml:Extend" xmi:id="_0TtRgLPeEeyfa4_HrSyzbg" extendedCase="_e82b8LPOEeyfa4_HrSyzbg" extensionLocation="_0Tt4kLPeEeyfa4_HrSyzbg"/>
+      <include xmi:type="uml:Include" xmi:id="_iDj68LPeEeyfa4_HrSyzbg" addition="_F6msMLPeEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_F6msMLPeEeyfa4_HrSyzbg" name="ViewCurrentUser">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_fGwLkbPeEeyfa4_HrSyzbg" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_fmATYbPeEeyfa4_HrSyzbg" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_gGLoQbPeEeyfa4_HrSyzbg" name="ExtensionPoint3"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_gs0xgbPeEeyfa4_HrSyzbg" name="ExtensionPoint4"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_hNtRAbPeEeyfa4_HrSyzbg" name="ExtensionPoint5"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_-VNysbPeEeyfa4_HrSyzbg" name="ExtensionPoint6"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_KRkscLPeEeyfa4_HrSyzbg" name="BlockUser">
+      <extend xmi:type="uml:Extend" xmi:id="_fGwLkLPeEeyfa4_HrSyzbg" extendedCase="_F6msMLPeEeyfa4_HrSyzbg" extensionLocation="_fGwLkbPeEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_LCZscLPeEeyfa4_HrSyzbg" name="SendFriendRequest">
+      <extend xmi:type="uml:Extend" xmi:id="_gGLoQLPeEeyfa4_HrSyzbg" extendedCase="_F6msMLPeEeyfa4_HrSyzbg" extensionLocation="_gGLoQbPeEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_OVAFoLPeEeyfa4_HrSyzbg" name="AcceptFriendRequest">
+      <extend xmi:type="uml:Extend" xmi:id="_gs0xgLPeEeyfa4_HrSyzbg" extendedCase="_F6msMLPeEeyfa4_HrSyzbg" extensionLocation="_gs0xgbPeEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Pi5cILPeEeyfa4_HrSyzbg" name="DeclineFriendRequest">
+      <extend xmi:type="uml:Extend" xmi:id="_hNtRALPeEeyfa4_HrSyzbg" extendedCase="_F6msMLPeEeyfa4_HrSyzbg" extensionLocation="_hNtRAbPeEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Z3LIULPeEeyfa4_HrSyzbg" name="SendMessageToUser">
+      <extend xmi:type="uml:Extend" xmi:id="_fmATYLPeEeyfa4_HrSyzbg" extendedCase="_F6msMLPeEeyfa4_HrSyzbg" extensionLocation="_fmATYbPeEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_7W-f8LPeEeyfa4_HrSyzbg" name="DeleteSentMessage">
+      <extend xmi:type="uml:Extend" xmi:id="_-VNysLPeEeyfa4_HrSyzbg" extendedCase="_F6msMLPeEeyfa4_HrSyzbg" extensionLocation="_-VNysbPeEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_WE2QwLPfEeyfa4_HrSyzbg" name="SendSuperUserRequest">
+      <extend xmi:type="uml:Extend" xmi:id="_kJt5sLPfEeyfa4_HrSyzbg" extendedCase="_njcPkLPUEeyfa4_HrSyzbg" extensionLocation="_kJt5sbPfEeyfa4_HrSyzbg"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_lise0LPfEeyfa4_HrSyzbg" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_dUtwwLPfEeyfa4_HrSyzbg" name="DeleteSuperUserRequest">
+      <extend xmi:type="uml:Extend" xmi:id="_jkbbULPfEeyfa4_HrSyzbg" extendedCase="_njcPkLPUEeyfa4_HrSyzbg" extensionLocation="_jkcCYLPfEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_gnCdILPfEeyfa4_HrSyzbg" name="UndoSuperUserRequest">
+      <extend xmi:type="uml:Extend" xmi:id="_lir3wLPfEeyfa4_HrSyzbg" extendedCase="_WE2QwLPfEeyfa4_HrSyzbg" extensionLocation="_lise0LPfEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_628vULPOEeyfa4_HrSyzbg" name="SignOut">
+      <extend xmi:type="uml:Extend" xmi:id="_e-snULPUEeyfa4_HrSyzbg" extendedCase="_e82b8LPOEeyfa4_HrSyzbg" extensionLocation="_e-snUbPUEeyfa4_HrSyzbg"/>
+      <extend xmi:type="uml:Extend" xmi:id="__ALpALPjEeyfa4_HrSyzbg" extendedCase="_HKiQwLPjEeyfa4_HrSyzbg" extensionLocation="__AMQELPjEeyfa4_HrSyzbg"/>
+      <extend xmi:type="uml:Extend" xmi:id="_oT6agLPlEeyfa4_HrSyzbg" extendedCase="_md1psLPlEeyfa4_HrSyzbg" extensionLocation="_oT7BkLPlEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_zXuU8LPfEeyfa4_HrSyzbg" name="ChangeVisibilityOfCurrentPlaylist">
+      <extend xmi:type="uml:Extend" xmi:id="_dlEEcLPgEeyfa4_HrSyzbg" extendedCase="_e11-kLPaEeyfa4_HrSyzbg" extensionLocation="_dlErgLPgEeyfa4_HrSyzbg"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_8DNo8bPgEeyfa4_HrSyzbg" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_84RBobPgEeyfa4_HrSyzbg" name="ExtensionPoint3"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_f4FP8LPgEeyfa4_HrSyzbg" name="MakePlaylistPrivate">
+      <extend xmi:type="uml:Extend" xmi:id="_8DNo8LPgEeyfa4_HrSyzbg" extendedCase="_zXuU8LPfEeyfa4_HrSyzbg" extensionLocation="_8DNo8bPgEeyfa4_HrSyzbg"/>
+      <extend xmi:type="uml:Extend" xmi:id="_FEn_ELPhEeyfa4_HrSyzbg" extendedCase="_9kKeULPgEeyfa4_HrSyzbg" extensionLocation="_FEn_EbPhEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_nt1rQLPgEeyfa4_HrSyzbg" name="MakePlaylistPublic">
+      <extend xmi:type="uml:Extend" xmi:id="_84RBoLPgEeyfa4_HrSyzbg" extendedCase="_zXuU8LPfEeyfa4_HrSyzbg" extensionLocation="_84RBobPgEeyfa4_HrSyzbg"/>
+      <extend xmi:type="uml:Extend" xmi:id="_FoNNQLPhEeyfa4_HrSyzbg" extendedCase="_9kKeULPgEeyfa4_HrSyzbg" extensionLocation="_FoNNQbPhEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_9kKeULPgEeyfa4_HrSyzbg" name="SetVisibilitOfCurrentPlaylist">
+      <extend xmi:type="uml:Extend" xmi:id="_EjSMkLPhEeyfa4_HrSyzbg" extendedCase="_ccRfILPaEeyfa4_HrSyzbg" extensionLocation="_EjSzoLPhEeyfa4_HrSyzbg"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_FEn_EbPhEeyfa4_HrSyzbg" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_FoNNQbPhEeyfa4_HrSyzbg" name="ExtensionPoint3"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HKiQwLPjEeyfa4_HrSyzbg" name="SignInAsSuperUser">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="__AMQELPjEeyfa4_HrSyzbg" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_m6zH8bPkEeyfa4_HrSyzbg" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_VKHxELPjEeyfa4_HrSyzbg" name="AddMovie">
+      <extend xmi:type="uml:Extend" xmi:id="_fr7i8LPjEeyfa4_HrSyzbg" extendedCase="_YmM2YLPjEeyfa4_HrSyzbg" extensionLocation="_fr7i8bPjEeyfa4_HrSyzbg"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_xB0QsLPjEeyfa4_HrSyzbg" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_xYGCsbPjEeyfa4_HrSyzbg" name="ExtensionPoint3"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_xvUP4LPjEeyfa4_HrSyzbg" name="ExtensionPoint4"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_yGSlcbPjEeyfa4_HrSyzbg" name="ExtensionPoint5"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_YmM2YLPjEeyfa4_HrSyzbg" name="ViewMovies">
+      <extend xmi:type="uml:Extend" xmi:id="_m6zH8LPkEeyfa4_HrSyzbg" extendedCase="_HKiQwLPjEeyfa4_HrSyzbg" extensionLocation="_m6zH8bPkEeyfa4_HrSyzbg"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_fr7i8bPjEeyfa4_HrSyzbg" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_gNQHULPjEeyfa4_HrSyzbg" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_gp61MLPjEeyfa4_HrSyzbg" name="ExtensionPoint3"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_KiQIkLPlEeyfa4_HrSyzbg" name="ExtensionPoint5"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_cf_ycLPjEeyfa4_HrSyzbg" name="EditCurrentMovie">
+      <extend xmi:type="uml:Extend" xmi:id="_gNPgQLPjEeyfa4_HrSyzbg" extendedCase="_0693ELPkEeyfa4_HrSyzbg" extensionLocation="_gNQHULPjEeyfa4_HrSyzbg"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_6qZUgLPjEeyfa4_HrSyzbg" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_7JE0kLPjEeyfa4_HrSyzbg" name="ExtensionPoint3"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_7miMobPjEeyfa4_HrSyzbg" name="ExtensionPoint4"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_79lasbPjEeyfa4_HrSyzbg" name="ExtensionPoint5"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_d0vX0LPjEeyfa4_HrSyzbg" name="DeleteCurrentMovie">
+      <extend xmi:type="uml:Extend" xmi:id="_gp6OILPjEeyfa4_HrSyzbg" extendedCase="_0693ELPkEeyfa4_HrSyzbg" extensionLocation="_gp61MLPjEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_jKpFgLPjEeyfa4_HrSyzbg" name="SetMovieTitle">
+      <extend xmi:type="uml:Extend" xmi:id="_xYGCsLPjEeyfa4_HrSyzbg" extendedCase="_VKHxELPjEeyfa4_HrSyzbg" extensionLocation="_xYGCsbPjEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_kaF7MLPjEeyfa4_HrSyzbg" name="SetMovieDescription">
+      <extend xmi:type="uml:Extend" xmi:id="_xvTo0LPjEeyfa4_HrSyzbg" extendedCase="_VKHxELPjEeyfa4_HrSyzbg" extensionLocation="_xvUP4LPjEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_lyQA8LPjEeyfa4_HrSyzbg" name="SetMovieImage">
+      <extend xmi:type="uml:Extend" xmi:id="_yGSlcLPjEeyfa4_HrSyzbg" extendedCase="_VKHxELPjEeyfa4_HrSyzbg" extensionLocation="_yGSlcbPjEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_nEbagLPjEeyfa4_HrSyzbg" name="SetMovieGenres">
+      <extend xmi:type="uml:Extend" xmi:id="_xBzpoLPjEeyfa4_HrSyzbg" extendedCase="_VKHxELPjEeyfa4_HrSyzbg" extensionLocation="_xB0QsLPjEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_yuvFgLPjEeyfa4_HrSyzbg" name="EditMovieTitle">
+      <extend xmi:type="uml:Extend" xmi:id="_7JENgLPjEeyfa4_HrSyzbg" extendedCase="_cf_ycLPjEeyfa4_HrSyzbg" extensionLocation="_7JE0kLPjEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_1B3lwLPjEeyfa4_HrSyzbg" name="EditMovieGenres">
+      <extend xmi:type="uml:Extend" xmi:id="_7miMoLPjEeyfa4_HrSyzbg" extendedCase="_cf_ycLPjEeyfa4_HrSyzbg" extensionLocation="_7miMobPjEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_2UXIYLPjEeyfa4_HrSyzbg" name="EditMovieImage">
+      <extend xmi:type="uml:Extend" xmi:id="_79lasLPjEeyfa4_HrSyzbg" extendedCase="_cf_ycLPjEeyfa4_HrSyzbg" extensionLocation="_79lasbPjEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_3f0O4LPjEeyfa4_HrSyzbg" name="EditMovieDescription">
+      <extend xmi:type="uml:Extend" xmi:id="_6qYtcLPjEeyfa4_HrSyzbg" extendedCase="_cf_ycLPjEeyfa4_HrSyzbg" extensionLocation="_6qZUgLPjEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_0693ELPkEeyfa4_HrSyzbg" name="ViewCurrentMovieAsEditor">
+      <extend xmi:type="uml:Extend" xmi:id="_KiPhgLPlEeyfa4_HrSyzbg" extendedCase="_YmM2YLPjEeyfa4_HrSyzbg" extensionLocation="_KiQIkLPlEeyfa4_HrSyzbg"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_SOHBAbPlEeyfa4_HrSyzbg" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Vxj5oLPlEeyfa4_HrSyzbg" name="ExtensionPoint3"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_OxPRgLPlEeyfa4_HrSyzbg" name="DeleteComment">
+      <extend xmi:type="uml:Extend" xmi:id="_SOHBALPlEeyfa4_HrSyzbg" extendedCase="_0693ELPkEeyfa4_HrSyzbg" extensionLocation="_SOHBAbPlEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_UMR94LPlEeyfa4_HrSyzbg" name="EditComment">
+      <extend xmi:type="uml:Extend" xmi:id="_VxjSkLPlEeyfa4_HrSyzbg" extendedCase="_0693ELPkEeyfa4_HrSyzbg" extensionLocation="_Vxj5oLPlEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_md1psLPlEeyfa4_HrSyzbg" name="SignInAsAdmin">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_oT7BkLPlEeyfa4_HrSyzbg" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_N8PtwLPmEeyfa4_HrSyzbg" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_OfXB4LPmEeyfa4_HrSyzbg" name="ExtensionPoint3"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_xX9N4LPlEeyfa4_HrSyzbg" name="SearchForUserAsAdmin">
+      <extend xmi:type="uml:Extend" xmi:id="_N8PGsLPmEeyfa4_HrSyzbg" extendedCase="_md1psLPlEeyfa4_HrSyzbg" extensionLocation="_N8PtwLPmEeyfa4_HrSyzbg"/>
+      <include xmi:type="uml:Include" xmi:id="_YJOfILPmEeyfa4_HrSyzbg" addition="_TjtskLPmEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_yoV3sLPlEeyfa4_HrSyzbg" name="SearchForSuperUserAsAdmin">
+      <extend xmi:type="uml:Extend" xmi:id="_OfWa0LPmEeyfa4_HrSyzbg" extendedCase="_md1psLPlEeyfa4_HrSyzbg" extensionLocation="_OfXB4LPmEeyfa4_HrSyzbg"/>
+      <include xmi:type="uml:Include" xmi:id="_XtrLkLPmEeyfa4_HrSyzbg" addition="_VOfzYLPmEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_TjtskLPmEeyfa4_HrSyzbg" name="ViewUserProfileAsAdmin">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_dW3BoLPmEeyfa4_HrSyzbg" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_gN1OwLPmEeyfa4_HrSyzbg" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_r_YxQbPmEeyfa4_HrSyzbg" name="ExtensionPoint3"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_8Lo9cLPmEeyfa4_HrSyzbg" name="ExtensionPoint4"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_J52Z4bPnEeyfa4_HrSyzbg" name="ExtensionPoint5"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_VOfzYLPmEeyfa4_HrSyzbg" name="ViewSuperUserProfileAsAdmin">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_dAlPoLPmEeyfa4_HrSyzbg" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_liGkwbPmEeyfa4_HrSyzbg" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_rgnxoLPmEeyfa4_HrSyzbg" name="ExtensionPoint3"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_7lDekbPmEeyfa4_HrSyzbg" name="ExtensionPoint4"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_JYARELPnEeyfa4_HrSyzbg" name="ExtensionPoint5"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_aSiVALPmEeyfa4_HrSyzbg" name="GiveSuperUserPErmissions">
+      <extend xmi:type="uml:Extend" xmi:id="_dW1zgLPmEeyfa4_HrSyzbg" extendedCase="_TjtskLPmEeyfa4_HrSyzbg" extensionLocation="_dW3BoLPmEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_buumMLPmEeyfa4_HrSyzbg" name="TakieSuperUserPermissions">
+      <extend xmi:type="uml:Extend" xmi:id="_dAkokLPmEeyfa4_HrSyzbg" extendedCase="_VOfzYLPmEeyfa4_HrSyzbg" extensionLocation="_dAlPoLPmEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_elHkgLPmEeyfa4_HrSyzbg" name="Ban">
+      <extend xmi:type="uml:Extend" xmi:id="_gN0nsLPmEeyfa4_HrSyzbg" extendedCase="_TjtskLPmEeyfa4_HrSyzbg" extensionLocation="_gN1OwLPmEeyfa4_HrSyzbg"/>
+      <extend xmi:type="uml:Extend" xmi:id="_liGkwLPmEeyfa4_HrSyzbg" extendedCase="_VOfzYLPmEeyfa4_HrSyzbg" extensionLocation="_liGkwbPmEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_phQh8LPmEeyfa4_HrSyzbg" name="DeleteAccount">
+      <extend xmi:type="uml:Extend" xmi:id="_rgnKkLPmEeyfa4_HrSyzbg" extendedCase="_VOfzYLPmEeyfa4_HrSyzbg" extensionLocation="_rgnxoLPmEeyfa4_HrSyzbg"/>
+      <extend xmi:type="uml:Extend" xmi:id="_r_YxQLPmEeyfa4_HrSyzbg" extendedCase="_TjtskLPmEeyfa4_HrSyzbg" extensionLocation="_r_YxQbPmEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_5FkkYLPmEeyfa4_HrSyzbg" name="SendWarningMessage">
+      <extend xmi:type="uml:Extend" xmi:id="_7lDekLPmEeyfa4_HrSyzbg" extendedCase="_VOfzYLPmEeyfa4_HrSyzbg" extensionLocation="_7lDekbPmEeyfa4_HrSyzbg"/>
+      <extend xmi:type="uml:Extend" xmi:id="_8LoWYLPmEeyfa4_HrSyzbg" extendedCase="_TjtskLPmEeyfa4_HrSyzbg" extensionLocation="_8Lo9cLPmEeyfa4_HrSyzbg"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_MU7VMbPnEeyfa4_HrSyzbg" name="ExtensionPoint3"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_FVmLkLPnEeyfa4_HrSyzbg" name="CancelWarningMessage">
+      <extend xmi:type="uml:Extend" xmi:id="_JX_qALPnEeyfa4_HrSyzbg" extendedCase="_VOfzYLPmEeyfa4_HrSyzbg" extensionLocation="_JYARELPnEeyfa4_HrSyzbg"/>
+      <extend xmi:type="uml:Extend" xmi:id="_J52Z4LPnEeyfa4_HrSyzbg" extendedCase="_TjtskLPmEeyfa4_HrSyzbg" extensionLocation="_J52Z4bPnEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Kc4OcLPnEeyfa4_HrSyzbg" name="UndoWarningMessage">
+      <extend xmi:type="uml:Extend" xmi:id="_MU7VMLPnEeyfa4_HrSyzbg" extendedCase="_5FkkYLPmEeyfa4_HrSyzbg" extensionLocation="_MU7VMbPnEeyfa4_HrSyzbg"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="__5ct8LPQEeyfa4_HrSyzbg" name="User"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_A-SPELPREeyfa4_HrSyzbg" name="SuperUser">
+    <generalization xmi:type="uml:Generalization" xmi:id="_Y5DwsLPSEeyfa4_HrSyzbg" general="_pBCcsLPZEeyfa4_HrSyzbg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_CEUDALPREeyfa4_HrSyzbg" name="Admin">
+    <generalization xmi:type="uml:Generalization" xmi:id="_ZvPKwLPSEeyfa4_HrSyzbg" general="_GfG4sLPkEeyfa4_HrSyzbg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_LXozELPSEeyfa4_HrSyzbg" name="Guest"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_RL7F4LPSEeyfa4_HrSyzbg" memberEnd="_RL7s8rPSEeyfa4_HrSyzbg _RL7s87PSEeyfa4_HrSyzbg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RL7s8LPSEeyfa4_HrSyzbg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RL7s8bPSEeyfa4_HrSyzbg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_RL7s8rPSEeyfa4_HrSyzbg" name="signup" type="_1GYe4LPOEeyfa4_HrSyzbg" association="_RL7F4LPSEeyfa4_HrSyzbg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_RL7s87PSEeyfa4_HrSyzbg" name="guest" type="_LXozELPSEeyfa4_HrSyzbg" association="_RL7F4LPSEeyfa4_HrSyzbg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_K5CgoLPUEeyfa4_HrSyzbg" name="Guest_SearchMovie" memberEnd="_K5Cgo7PUEeyfa4_HrSyzbg _K5CgpLPUEeyfa4_HrSyzbg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_K5CgobPUEeyfa4_HrSyzbg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_K5CgorPUEeyfa4_HrSyzbg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_K5Cgo7PUEeyfa4_HrSyzbg" name="searchmovie" type="_fx13ULPbEeyfa4_HrSyzbg" association="_K5CgoLPUEeyfa4_HrSyzbg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_K5CgpLPUEeyfa4_HrSyzbg" name="guest" type="_LXozELPSEeyfa4_HrSyzbg" association="_K5CgoLPUEeyfa4_HrSyzbg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6tIn0LPVEeyfa4_HrSyzbg" name="User_SignIn" memberEnd="_6tIn07PVEeyfa4_HrSyzbg _6tJO4LPVEeyfa4_HrSyzbg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6tIn0bPVEeyfa4_HrSyzbg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6tIn0rPVEeyfa4_HrSyzbg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6tIn07PVEeyfa4_HrSyzbg" name="signin" type="_e82b8LPOEeyfa4_HrSyzbg" association="_6tIn0LPVEeyfa4_HrSyzbg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6tJO4LPVEeyfa4_HrSyzbg" name="user" type="__5ct8LPQEeyfa4_HrSyzbg" association="_6tIn0LPVEeyfa4_HrSyzbg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_pBCcsLPZEeyfa4_HrSyzbg" name="UserPermissions"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_11QWELPZEeyfa4_HrSyzbg" name="UserPermissions_GoToProfile" memberEnd="_11Q9ILPZEeyfa4_HrSyzbg _11Q9IbPZEeyfa4_HrSyzbg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_11QWEbPZEeyfa4_HrSyzbg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_11QWErPZEeyfa4_HrSyzbg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_11Q9ILPZEeyfa4_HrSyzbg" name="gotoprofile" type="_njcPkLPUEeyfa4_HrSyzbg" association="_11QWELPZEeyfa4_HrSyzbg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_11Q9IbPZEeyfa4_HrSyzbg" name="userpermissions" type="_pBCcsLPZEeyfa4_HrSyzbg" association="_11QWELPZEeyfa4_HrSyzbg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8hVzkLPZEeyfa4_HrSyzbg" name="UserPermissions_SearchMovie" memberEnd="_8hVzk7PZEeyfa4_HrSyzbg _8hWaoLPZEeyfa4_HrSyzbg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8hVzkbPZEeyfa4_HrSyzbg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8hVzkrPZEeyfa4_HrSyzbg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8hVzk7PZEeyfa4_HrSyzbg" name="searchmovie" type="_p4YVYLPOEeyfa4_HrSyzbg" association="_8hVzkLPZEeyfa4_HrSyzbg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8hWaoLPZEeyfa4_HrSyzbg" name="userpermissions" type="_pBCcsLPZEeyfa4_HrSyzbg" association="_8hVzkLPZEeyfa4_HrSyzbg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_lKgdwLPeEeyfa4_HrSyzbg" name="UserPermissions_SearchUser" memberEnd="_lKhE0rPeEeyfa4_HrSyzbg _lKhE07PeEeyfa4_HrSyzbg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lKhE0LPeEeyfa4_HrSyzbg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lKhE0bPeEeyfa4_HrSyzbg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lKhE0rPeEeyfa4_HrSyzbg" name="searchuser" type="_CdV7ILPeEeyfa4_HrSyzbg" association="_lKgdwLPeEeyfa4_HrSyzbg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lKhE07PeEeyfa4_HrSyzbg" name="userpermissions" type="_pBCcsLPZEeyfa4_HrSyzbg" association="_lKgdwLPeEeyfa4_HrSyzbg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_GfG4sLPkEeyfa4_HrSyzbg" name="SuperUserPermissions">
+    <generalization xmi:type="uml:Generalization" xmi:id="_KPW3MLPkEeyfa4_HrSyzbg" general="_pBCcsLPZEeyfa4_HrSyzbg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_L-CmkLPkEeyfa4_HrSyzbg" name="UserPermissions_ViewMovies" memberEnd="_L-Cmk7PkEeyfa4_HrSyzbg _L-CmlLPkEeyfa4_HrSyzbg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_L-CmkbPkEeyfa4_HrSyzbg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_L-CmkrPkEeyfa4_HrSyzbg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_L-Cmk7PkEeyfa4_HrSyzbg" name="viewmovies" type="_YmM2YLPjEeyfa4_HrSyzbg" association="_L-CmkLPkEeyfa4_HrSyzbg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_L-CmlLPkEeyfa4_HrSyzbg" name="superuserpermissions" type="_GfG4sLPkEeyfa4_HrSyzbg" association="_L-CmkLPkEeyfa4_HrSyzbg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_hHBygLPkEeyfa4_HrSyzbg" memberEnd="_hHByg7PkEeyfa4_HrSyzbg _hHByhLPkEeyfa4_HrSyzbg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hHBygbPkEeyfa4_HrSyzbg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hHBygrPkEeyfa4_HrSyzbg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_hHByg7PkEeyfa4_HrSyzbg" name="signinassuperuser" type="_HKiQwLPjEeyfa4_HrSyzbg" association="_hHBygLPkEeyfa4_HrSyzbg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_hHByhLPkEeyfa4_HrSyzbg" name="superuser" type="_A-SPELPREeyfa4_HrSyzbg" association="_hHBygLPkEeyfa4_HrSyzbg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1z_7YLPlEeyfa4_HrSyzbg" name="Admin_SignInAsAdmin" memberEnd="_1z_7Y7PlEeyfa4_HrSyzbg _1z_7ZLPlEeyfa4_HrSyzbg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1z_7YbPlEeyfa4_HrSyzbg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1z_7YrPlEeyfa4_HrSyzbg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1z_7Y7PlEeyfa4_HrSyzbg" name="signinasadmin" type="_md1psLPlEeyfa4_HrSyzbg" association="_1z_7YLPlEeyfa4_HrSyzbg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1z_7ZLPlEeyfa4_HrSyzbg" name="admin" type="_CEUDALPREeyfa4_HrSyzbg" association="_1z_7YLPlEeyfa4_HrSyzbg"/>
+  </packagedElement>
+</uml:Model>

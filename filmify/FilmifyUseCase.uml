@@ -76,6 +76,7 @@
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_9lvpIbPUEeyfa4_HrSyzbg" name="ExtensionPoint2"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_AjqLwLPVEeyfa4_HrSyzbg" name="ExtensionPoint3"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_QwEI8bPVEeyfa4_HrSyzbg" name="ExtensionPoint4"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_KD_6ELUIEey_DNdfsSBBPg" name="ExtensionPoint5"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_-FuJsLPUEeyfa4_HrSyzbg" name="BlockFriend">
       <extend xmi:type="uml:Extend" xmi:id="_AjpksLPVEeyfa4_HrSyzbg" extendedCase="_s7D0gLPUEeyfa4_HrSyzbg" extensionLocation="_AjqLwLPVEeyfa4_HrSyzbg"/>
@@ -147,7 +148,6 @@
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_9k6T8bPaEeyfa4_HrSyzbg" name="ExtensionPoint3"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_fx13ULPbEeyfa4_HrSyzbg" name="SearchMovieAsGuest">
-      <extend xmi:type="uml:Extend" xmi:id="_uT9c8LPbEeyfa4_HrSyzbg" extendedCase="_p4YVYLPOEeyfa4_HrSyzbg" extensionLocation="_uT9c8bPbEeyfa4_HrSyzbg"/>
       <include xmi:type="uml:Include" xmi:id="_fhaLcLPXEeyfa4_HrSyzbg" addition="_5PGAsLPOEeyfa4_HrSyzbg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_GL3GMLPcEeyfa4_HrSyzbg" name="ViewCurrentMovie">
@@ -349,6 +349,9 @@
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_Kc4OcLPnEeyfa4_HrSyzbg" name="UndoWarningMessage">
       <extend xmi:type="uml:Extend" xmi:id="_MU7VMLPnEeyfa4_HrSyzbg" extendedCase="_5FkkYLPmEeyfa4_HrSyzbg" extensionLocation="_MU7VMbPnEeyfa4_HrSyzbg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Hr5aQLUIEey_DNdfsSBBPg" name="MessageFriend">
+      <extend xmi:type="uml:Extend" xmi:id="_KD_TALUIEey_DNdfsSBBPg" extendedCase="_s7D0gLPUEeyfa4_HrSyzbg" extensionLocation="_KD_6ELUIEey_DNdfsSBBPg"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="__5ct8LPQEeyfa4_HrSyzbg" name="User"/>

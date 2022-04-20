@@ -52,6 +52,27 @@ Aktorzy: Użytkownik
 2. Użytkownik wybiera opcję "usuń z półki"
 3. System usuwa informacje o przypisaniu filmu do półki
 
+## Przeglądanie publicznych półek
+Aktorzy: Gość, zalogoway użytkownik, zaufany użytkownik, admin
+1. Aktor klika w "przeglądaj półkę" w profilu użytkownika.
+2. Pokaż zawartość półki aktorowi.
+
+### Scenariusze poboczne
+
+2a. Półka danego użytkownika nie jest dostępna.
+2a1. Wyświetl komunikat o niepowodzeniu.
+
+## Usuwanie półki
+Aktorzy: Admin
+1. Admin klika w "usuń półkę" w przeglądzie półek.
+2. Wyświetlenie monitu dot. potwierdzenia czynności (z opcją kontynuacji lub przerwania działania).
+3. Admin wybiera opcje kontynuacji działania.
+4. Usuń wybraną półkę z systemu.
+5. Wyświetl komunikat o powodzeniu.
+
+### Scenariusze poboczne
+
+3a. Admin wybiera "anuluj".
 
 
 

@@ -19,7 +19,9 @@ główny scenariusz:
    ### scenariusze poboczne:
   
 3a. Użytkownik rezygnuje z wyszukiwania
+
 5a. W systemie nie ma filmu o takiej nazwie
+
 5b. Jeśli dane są nieprawidłowe to wystapi blad "Nie istnije taki film"
 
 ### Use case - przeglądanie popularnych półek miesiąca

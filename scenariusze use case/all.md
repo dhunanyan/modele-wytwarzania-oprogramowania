@@ -8,7 +8,7 @@
 
 ### FRONTEND:
 
-- Za pomocą **post("/account/signup")** wysyła wprowadzone dane przez użytkownika do Backendu na API, u którego **baseURL** może być np: **http://localhost:5000**, po czym dostaje **response-a** z Backendu.
+- Za pomocą **POST-u** wysyła wprowadzone dane przez użytkownika do Backendu na API, u którego **baseURL** może być np: **_http://localhost:5000_**, natomiast dalsza ścieżka **_"/account/signup"_** (która była już wcześniej skonfigurowana w routes-ach), po czym dostaje **response-a** z Backendu.
 
 ### BACKEND:
 

@@ -51,8 +51,11 @@ główny scenariusz:
    2. Użytkownik czyta cytat dnia.
    3. Użytkownik może przejść na stronę filmu z którego był wzięty cytat.
    ### scenariusze poboczne:
+   
    1a. System nie może odnaleźć cytatu, bo on nie został dodany.
+   
    3a. W systemie nie ma filmu z takim cytatem i występuje błąd.
+   
 
 ### Use case - przeglądanie top 10 ranking filmów
 
@@ -63,9 +66,13 @@ główny scenariusz:
 3. System przekieruje Użytkownika na nowa strone
 4. System prezentuje informacje o filmach w wybranej półce.
  ### scenariusze poboczne:
+ 
 1a. System nie wyświetla nowego rankingu filmów, bo nie zostal zaaktulizowany.
+
 2a. Użytkownik rezygnuje z wyboru filmu.
+
 3a. System nie może odnaleźć strony, bo właściciel usunął film i wyświetla komunikat o błędzie.
+
 
 ### Use case - przeglądanie własnych rekomendacji
 
@@ -79,10 +86,15 @@ główny scenariusz:
 6. Użytkownik dostaje listę rekomendowanych filmow na podstawie wprowadzonych informacji
 
  ### scenariusze poboczne:
+ 
 2a. Użytkownik rezygnuje z wyboru.
+
 2b. Użytkownik wybiera tylko jeden gatunek, ktorego nie wystarczy do rekomendacji.
+
 4a. System nie może odnaleźć strony, bo właściciel usunął film i wyświetla komunikat o błędzie.
+
 6a. Nie istnieją filmu spełniającego kryteria
+
 
 ### Use case - śledzenie aktywności znajomego
 
@@ -92,7 +104,9 @@ główny scenariusz:
 2. Użytkownik moze ukryc aktywnosc wybranego znajomego
  
  ### scenariusze poboczne:
+ 
 1a. Użytkownik nie widzi aktywnosci znajomego, bo jeszcze nie ma znajomych w systemie.
+
 
 ### Use case - dodanie cytatu dnia
 
@@ -105,11 +119,17 @@ główny scenariusz:
 4. System sprawdza poprawność wprowadzonych danych
 5. System tworzy nowy cytat i umieszcza go w bazie danych.
    ### scenariusze poboczne:
+   
    2a. System wyświetla błąd, bo film nie istnieje na stronie.
+   
    3a. Użytkownik rezygnuje z dodania cytatu.
+   
    3b.Użytkownik dodał nieprawidłowe dane.
+   
    4a.System informuje użytkownika, które z wprowadzonych przez niego danych są nieprawidłowe
+   
    5a.System nie wyświetla nowego cytatu, bo on nie został zaaktulizowany.
+   
 
 ---
 

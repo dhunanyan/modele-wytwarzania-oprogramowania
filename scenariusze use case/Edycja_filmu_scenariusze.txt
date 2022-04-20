@@ -4,12 +4,12 @@ Aktorzy: zalogowany użytkownik lub super użytkownik
 1)	Użytkownik wybiera funkcję dodaj opis
 2)	Użytkownik wpisuje opis filmu w polu tekstowym
 3)	Użytkownik naciska przycisk „opublikuj”
-a)	Użytkownik naciska przycisk anuluj, opinia nie jest publikowana
 4)	System sprawdza obecność wulgarnych lub nieodpowiednich słów
-a)	Opinia jest zapisywana na serwerze
-b)	System informuje o wystąpieniu niedozwolonych słów, opinia nie jest zapisywana
+5)	Opinia jest zapisywana na serwerze
 
-
+scenariusze poboczne:
+3a)	Użytkownik naciska przycisk anuluj, opinia nie jest publikowana
+4a)	System informuje o wystąpieniu niedozwolonych słów, opinia nie jest zapisywana
 
 
 Wycofanie oceny filmu
@@ -17,14 +17,22 @@ Aktorzy: zalogowany użytkownik lub super użytkownik
 1)	Użytkownik wybiera wystawioną wcześniej ocenę
 2)	Użytkownik wybiera opcję usuń
 3)	Użytkownik potwierdza chęć usunięcia oceny
-a)	Użytkownik nie potwierdza chęci usunięcia oceny, ocena nie jest usuwana
 4)	Ocena zostaje usunięta
+
+Scenariusze poboczne
+3a)	Użytkownik nie potwierdza chęci usunięcia oceny, ocena nie jest usuwana
+
+
 Usunięcie własnej opinii o wybranym filmie
 Aktorzy: zalogowany użytkownik lub super użytkownik
 1)	Użytkownik wybiera swoją opinie
 2)	Użytkownik wybiera opcję usuń
-3)	Użytkownik potwierdza chęć usunięcia opinii, opinia zostaje usunięta
-a)	Użytkownik nie potwierdza chęci usunięcia opinii, okpienia nie jest usuwana 
+3)	Użytkownik potwierdza chęć usunięcia opinii 
+4)  Opinia zostaje usunięta
+
+Scenariusze poboczne
+3a)	Użytkownik nie potwierdza chęci usunięcia opinii, okpienia nie jest usuwana 
+
 
 Dodawanie do półki ulubionych
 Aktorzy: zalogowany użytkownik lub super użytkownik
@@ -39,9 +47,12 @@ Aktorzy: zalogowany użytkownik lub super użytkownik
 3)	System wyświetla edytowalne pole tekstowe z aktualną treścią komentarza
 4)	Użytkownik wprowadza zmiany w treści
 5)	Użytkownik wybiera opcję zapisz
-a.	Użytkownik wybiera opcję odrzuć zmiany
-i.	Zmiany nie zostają zapisane
 6)	Zmiany zostają zapisane
+
+Scenariusze poboczne:
+5a) Użytkownik wybiera opcję odrzuć zmiany
+5a1)Zmiany nie zostają zapisane
+
 
 Dodawanie oceny filmu
 Aktorzy: zalogowany użytkownik lub super użytkownik
@@ -59,14 +70,21 @@ Aktorzy: zalogowany użytkownik lub gość
 1.	Użytkownik wybiera zwiastun do odtworzenia
 2.	System przekierowuje użytkownika na stronę serwisu streamingowi z danym zwiastunem
 
+Scenariusze poboczne
+2a) System nie może odnaleźć strony i wyświetla komunikat o błędzie
+
+
 Usuwanie filmów
 Aktorzy: Administrator
 1.	Administrator wybiera film do usunięcia
 2.	System prezentuje Administratorowi informacje o filmie oraz opcje „usuń” lub „anuluj”
 3.	Administrator wybiera opcje usunięcia filmu
-a.	Administrator wybiera opcję „anuluj”
-i.	Film nie jest usuwany
 4.	System usuwa film z bazy
+
+Scenariusze poboczne
+3a) Administrator wybiera opcję „anuluj”
+3ai)Film nie jest usuwany
+
 
 Edytowanie opisu filmu
 Aktorzy: Administrator lub super użytkownik
@@ -99,3 +117,6 @@ Aktorzy: Administrator lub super użytkownik
 4.	System sprawdza poprawność linku
 5.	Zwiastun zostaje dodany na podstawie linku
 
+
+
+Antoni Lasoń

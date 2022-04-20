@@ -685,13 +685,13 @@ Aktorzy: Administrator lub super użytkownik
 
 Aktorzy: Administrator lub super użytkownik
 
-1.System sprawdza poprawność napisanych komentarzy w programie. 
-2.Aktor wybiera komentarz potrzebujący edycji.
-3.Aktor wybiera opcję „edytuj”
-4.ktor wprowadza zmiany w treści.
-5.Aktor wybiera opcję zapisz i system zostaje zaaktulizowany.
+1. System sprawdza poprawność napisanych komentarzy w programie. 
+2. Aktor wybiera komentarz potrzebujący edycji.
+3. Aktor wybiera opcję „edytuj”
+4. Aktor wprowadza zmiany w treści.
+5. Aktor wybiera opcję zapisz i system zostaje zaaktulizowany.
 Scenariusze poboczne: 
-5a.Zmiany nie zostają zapisane
+5a. Zmiany nie zostają zapisane
 Kamila Baizakova
 
 ### Use case - Usuwanie komentarzy

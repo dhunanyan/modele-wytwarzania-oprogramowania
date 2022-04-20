@@ -75,6 +75,23 @@ Aktorzy: Admin
 3a. Admin wybiera "anuluj".
 
 
+## Tworzenie półki
+Aktorzy: Zalogowany użytkownik, zaufany użytkownik.
+1. Aktor klika "dodaj półkę" w swoim przeglądzie półek.
+2. Wyświetl formularz do tworzenia nowej półki z polami "widoczność", "nazwa", "filmy".
+3. Aktor wypełnia wszystkie pola.
+4. Aktor klika "zatwierdź".
+5. Utwórz nową półkę przypisaną do tego użytkownika.
+6. Wyświetl komunikat o powodzeniu.
+
+### Scenariusze poboczne
+
+3a. Użytkownik nie wypełnił wszystkich pól.
+3a1. Użytkownik klika "zatwierdź".
+3a2. Wyświetl komunikat o konieczności wypełnieniu wszystkich pól. idź do 2.
+
+
+
 
 
 

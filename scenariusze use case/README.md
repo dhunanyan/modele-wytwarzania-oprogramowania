@@ -203,11 +203,16 @@ Aktorzy: Użytkownik
 5. Użytkonik podaje hasło
 6. Konto jest usuwane z bazy
 
-scenariusze poboczne
+### scenariusze poboczne:
+
 3a. Użytkownik anuluje operacje
+
 5a. Użytkownik podaje błędne hasło
+
 5a1. System informuje o podaniu błędnego hasła
+
 5a2. Spwrót do punktu 5.
+
 
 ### Use case - Wylogowanie
 
@@ -226,9 +231,12 @@ Aktorzy: użytkownik lub super użytkownik lub Administrator
 4. Użytkownik wybiera opcję zapisz
 5. Zmiany zostają zapisane
 
-scenariusze poboczne
+### scenariusze poboczne:
+
 4a. Użytkonik wybiera opcję " anuluj"
+
 4a1. Zmiany nie zostają zapisane
+
 
 ### Use case - Zmiana hasła
 
@@ -241,10 +249,14 @@ Aktorzy: użytkownik lub super użytkownik lub Administrator
 5. System prosi o dwukrotne podanie nowego hasła
 6. Nowe hasło zostaje zaszyfrowane i zapisane w bazie
 
-scenariusze poboczne
+### scenariusze poboczne:
+
 4a. System weryfikuje hasło jako błędne
+
 4a1. Powrót do punktu 2
+
 5a. Podane hasła są różne
+
 5a1. Powrót do punktu 5
 
 ## Autor poniższych: Dominik Kikla
@@ -551,10 +563,14 @@ główny scenariusz:
 7. Pokaż otrzymującemu wiadomość, która do niego przyszła i miejsce do odpowiedzenia na nią.
 8. Odpowiadający pisze wiadomość i potem klika "odpowiedz". idź do punktu 4.
 
-scenariusze poboczne:
+### scenariusze poboczne:
+
 3a. Użytkownik klika "anuluj".
+
 6a. Otrzymujący klika w "moje konwersacje".
+
 6a1. Otrzymujący klika w wybranego użytkownika. idź do punktu 2.
+
 
 ### Use case - usuwanie konta
 
@@ -567,7 +583,8 @@ główny scenariusz:
 4. Wyślij wiadomość dot. usunięcia konta na adres e-mail usuwanego konta. 
 5. Usuń konto z systemu.
 
-scenariusze poboczne:
+### scenariusze poboczne:
+
 3a. admin wybiera opcję "anuluj".
 
 ### Use case - Wysłanie ostrzerzenia o naruszeniu regulaminu
@@ -584,8 +601,10 @@ główny scenariusz:
 7.  Uzględnij to ostrzeżenie w systemie. 
 8.  Wyślij do użytkownika wiadomość o ostrzeżeniu zawierającą wybrany powód i komentarz.
 
-scenariusze poboczne:
+### scenariusze poboczne:
+
 3a. Admin klika "anuluj".
+
 6a. Admin klika "anuluj". idź do 2.
 
 ### Use case - Cofnięcie ostrzerzenia o naruszeniu regulaminu
@@ -601,7 +620,8 @@ główny scenariusz:
 6. Uzględnij to cofnięcie ostrzeżenia w systemie.
 7. Wyślij do użytkownika wiadomość o cofnięciu ostrzeżenia zawierającą wybrany powód i komentarz.
 
-scenariusze poboczne:
+### scenariusze poboczne:
+
 5a. Admin klika "anuluj".
 
 ### Use case - blokowanie konta
@@ -615,7 +635,8 @@ główny scenariusz:
 4. Wyślij wiadomość dot. zablokowania konta na adres e-mail blokowanego konta.
 5. Zablokuj konto z systemu (uniemożliwij wykonywanie czynności inne niż dostępne niezalogowanemu użytkownikowi).
 
-scenariusze poboczne:
+### scenariusze poboczne:
+
 3a. admin wybiera opcję "anuluj".
 
 autor: Dominik Kikla
@@ -680,8 +701,10 @@ Aktorzy: zalogowany użytkownik lub super użytkownik
 5. Użytkownik wybiera opcję zapisz
 6. Zmiany zostają zapisane
 
-Scenariusze poboczne:
+### scenariusze poboczne:
+
 5a) Użytkownik wybiera opcję odrzuć zmiany
+
 5a1)Zmiany nie zostają zapisane
 
 ### Use case - Dodawanie oceny filmu

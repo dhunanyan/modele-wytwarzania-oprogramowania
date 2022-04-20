@@ -311,7 +311,9 @@ główny scenariusz:
 ### scenariusze poboczne:
 
 3a. aktor (ten co w pkt 1) wybiera opcję "anuluj".
+
 6a. link nie zostaje kliknięty.
+
 6a1. Po upływie 24 godzin wyślij do aktora (tego co w pkt 1) wiadomość o niepowodzeniu zmiany e-mail.
 
 ## use case: Przyznanie statusu super user
@@ -381,9 +383,13 @@ główny scenariusz:
 8. Wyswietl komunikat o powodzeniu.
 
 scenariusze poboczne:
+
 3a. aktor (ten co w pkt 1) wybiera opcję "anuluj".
+
 6a. link nie zostaje kliknięty.
+
 6a1. Po upływie 24 godzin wyślij do aktora (tego co w pkt 1) wiadomość o niepowodzeniu zmiany e-mail.
+
 
 ### Use case - Przyznanie statusu super user
 
@@ -398,7 +404,8 @@ główny scenariusz:
 5. Pokaż komunikat o sukcesie.
 6. Wyślij wiadomość do zalogowanego użytkownika dot. zmiany jego uprawnień.
 
-scenariusze poboczne:
+### scenariusze poboczne:
+
 3a. Admin klika anuluj.
 
 ---
@@ -417,6 +424,7 @@ Aktorzy: Użytkownik
 ### Use case - Scenariusze poboczne
 
 3a. Uźytkownik nie potwierdza chęci wykonania operacji
+
 3a1. Półka nie zostaje usunięta
 
 ### Use case - Skopiowanie połki innego użytkownika
@@ -440,6 +448,7 @@ Aktorzy: Użytkownik
 ### Use case - Scenariusze poboczne
 
 4a. Użytkownik naciska przyciks "anuluj"
+
 4a1. Ustawienia widoczności nie zostają zmienione
 
 ### Use case - Dodawanie filmu do półki
@@ -452,15 +461,22 @@ Aktorzy: Użytkownik
 4. Użytkownik wybiera półkę
 5. System dodaje książkę do półki
 
-### Use case - Scenariusze poboczne
+### Scenariusze poboczne
 
 3a. Uźytkownik wybiera utwóż nową półkę
+
 3a1. System wyświetla okno dialogowe z prośbą o podanie nazwy nowej półki oraz ustawieniami widoczności
+
 3a2. Użytkownik wprowadza nazwę i ustawienia widoczności
+
 3a3. uzytkownik wybiera opcję utwórz nową półke
+
 3a4. Pułka zostaje utworzona a system dodaje do wybrany film.
+
 3a3a. Użytkownik wybiera opcję anuluj
+
 3a3a1. Proces zostaje przerwany
+
 
 ### Use case - Usuwanie z półki
 
@@ -477,8 +493,10 @@ Aktorzy: Gość, zalogoway użytkownik, zaufany użytkownik, admin
 1. Aktor klika w "przeglądaj półkę" w profilu użytkownika.
 2. Pokaż zawartość półki aktorowi.
 
-scenariusze poboczne:
+### scenariusze poboczne:
+
 2a. Półka danego użytkownika nie jest dostępna.
+
 2a1. Wyświetl komunikat o niepowodzeniu.
 
 ### Use case - Usuwanie półki
@@ -505,9 +523,12 @@ Aktorzy: Zalogowany użytkownik, zaufany użytkownik.
 5. Utwórz nową półkę przypisaną do tego użytkownika.
 6. Wyświetl komunikat o powodzeniu.
 
-scenariusze poboczne:
+### scenariusze poboczne:
+
 3a. Użytkownik nie wypełnił wszystkich pól.
+
 3a1. Użytkownik klika "zatwierdź".
+
 3a2. Wyświetl komunikat o konieczności wypełnieniu wszystkich pól. idź do 2.
 
 Autor 3 ostatnich: Dominik Kikla
@@ -526,8 +547,10 @@ główny scenariusz:
 5b2. Użytkownik wysyłający zaproszenie dostaje komunikat o odrzuceniu zaproszenia.
 5a3. Użytkownik wysyłający zaproszenie dostaje komunikat o zaakceptowaniu zaproszenia.
 
-scenariusze poboczne:
+### scenariusze poboczne:
+
 3a. W systemie nie ma użytkownika o takiej nazwie
+
 3a1. Wyświetl komunikat dot. nieistniejącego użytkownika
 
 ---
@@ -546,7 +569,6 @@ główny scenariusz:
 3. Użytkownik wybiera opcje kontynuacji działania (zatwierdza usuwanie). 
 4. Usuwany użytkownik z listy znajomych i usuwający znikają nawzajem ze swoich list znajomych.
 
-scenariusze poboczne:
 
 ### Use case - wysłanie wiadomości do innego usera
 
@@ -654,8 +676,10 @@ Aktorzy: zalogowany użytkownik lub super użytkownik
 4. System sprawdza obecność wulgarnych lub nieodpowiednich słów
 5. Opinia jest zapisywana na serwerze
 
-scenariusze poboczne:
+### scenariusze poboczne:
+
 3a) Użytkownik naciska przycisk anuluj, opinia nie jest publikowana
+
 4a) System informuje o wystąpieniu niedozwolonych słów, opinia nie jest zapisywana
 
 ### Use case - Wycofanie oceny filmu
@@ -668,7 +692,7 @@ Aktorzy: zalogowany użytkownik lub super użytkownik
 4. Ocena zostaje usunięta
 
 Scenariusze poboczne
-3a) Użytkownik nie potwierdza chęci usunięcia oceny, ocena nie jest usuwana
+3a. Użytkownik nie potwierdza chęci usunięcia oceny, ocena nie jest usuwana
 
 ### Use case - Usunięcie własnej opinii o wybranym filmie
 
@@ -680,7 +704,7 @@ Aktorzy: zalogowany użytkownik lub super użytkownik
 4. Opinia zostaje usunięta
 
 Scenariusze poboczne
-3a) Użytkownik nie potwierdza chęci usunięcia opinii, okpienia nie jest usuwana
+3a. Użytkownik nie potwierdza chęci usunięcia opinii, okpienia nie jest usuwana
 
 ### Use case - Dodawanie do półki ulubionych
 
@@ -741,8 +765,10 @@ Aktorzy: Administrator
 3. Administrator wybiera opcje usunięcia filmu
 4. System usuwa film z bazy
 
-Scenariusze poboczne
+### scenariusze poboczne:
+
 3a) Administrator wybiera opcję „anuluj”
+
 3ai) Film nie jest usuwany
 
 ### Use case - Edytowanie opisu filmu

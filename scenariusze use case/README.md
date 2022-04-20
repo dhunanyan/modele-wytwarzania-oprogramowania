@@ -193,7 +193,7 @@ Aktorzy: Użytkownik
 
 1. Wybranie opcji "Anuluj podanie o status zaufanego użytkownika"
 
-##Usuwanie własnego konta
+## Usuwanie własnego konta
 Aktorzy: Użytkownik
 
 1. Użytkownik wybiera opcję usuń konto

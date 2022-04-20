@@ -36,8 +36,11 @@ główny scenariusz:
 ### scenariusze poboczne:
 
 1a. System nie wyświetla nowego rankingu półek, bo nie zostal zaktualizowany.
+
 2a. Użytkownik rezygnuje z wybora polek.
+
 3a. System nie może odnaleźć strony, bo właściciel usunął połkę i wyświetla komunikat o błędzie
+
 
 ### Use case - przeglądanie cytatu dnia
 

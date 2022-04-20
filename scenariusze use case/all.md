@@ -31,9 +31,9 @@
 
 - Jako piąty krok **Hash-uje** hasło, aby dane uzytkownika były bezpieczne, jeśli ktoś się włamie do bazy.
 
-- Jako szósty krok tworzy **Model** zwracania danych Frontendowi.
+- Jako szósty krok tworzy **Model** zwracania danych **Bazie Danym**, do którego jest dodane międzyinnymi **zHashowane** hasło i wysyła go.
 
-- Jako siódmy krok tworzy **Token** z emailem pobranym z **Modelu**, **Secret-em** i z **datą wygaśnięcia** (aby użytkownik nie miał nieskończonej sesji, tylko żeby musiał wydłużać go np: co 1h).
+- Jako siódmy krok tworzy **Token** z **_emailem_** i **_\_id_**, pobranym z ww. **Modelu**, **Secret-em** i z **Datą wygaśnięcia** (aby użytkownik nie miał nieskończonej sesji, tylko żeby musiał wydłużać go np: co 1h).
 
 - W przypadku **Suckesu** Backend wysyła Frontendowi **response ze statusem 201, w którym się znajduje Model i Token**
 

@@ -91,7 +91,8 @@ Aktorzy: Zalogowany użytkownik, zaufany użytkownik.
 3a2. Wyświetl komunikat o konieczności wypełnieniu wszystkich pól. idź do 2.
 
 
-
+Autor 3 ostatnich: Dominik Kikla
+Autor reszty: Antoni Lasoń
 
 
 

@@ -14,7 +14,7 @@ scenariusze poboczne:
  5b. Jeśli dane są nieprawidłowe to wystapi blad "Nie istnije taki film"   
 
 
-use case: przeglądanie popularnych półek miesiącu
+use case: przeglądanie popularnych półek miesiąca
 aktorzy: gość, zalogowany użytkownik, super użytkownik 
 główny scenariusz:                 
 1.System wyświetla listę kilku najlepszych wedlug rankingu polek miesiąca.
@@ -22,7 +22,7 @@ główny scenariusz:
 3.System otwiera nowa strone z wybrana polka
 4. System prezentuje informacje o filmach w wybranej półce. 
 Scenariusze poboczne:
-1a. System nie wyświetla nowy ranking polek, bo nie zostal zaaktulizowany.
+1a. System nie wyświetla nowego rankingu półek, bo nie zostal zaktualizowany.
 2a. Użytkownik rezygnuje z wybora polek.
 3a. System nie może odnaleźć strony, bo właściciel usunął połkę  i wyświetla komunikat o błędzie
 
@@ -46,7 +46,7 @@ główny scenariusz:
 3.System przekieruje Użytkownika na nowa strone
 4. System prezentuje informacje o filmach w wybranej półce. 
 Scenariusze poboczne: 
-1a. System nie wyświetla nowy ranking filmow, bo nie zostal zaaktulizowany.
+1a. System nie wyświetla nowego rankingu filmów, bo nie zostal zaaktulizowany.
 2a. Użytkownik rezygnuje z wyboru filmu.
 3a. System nie może odnaleźć strony, bo właściciel usunął film  i wyświetla komunikat o błędzie.
 
@@ -63,8 +63,10 @@ główny scenariusz:
 3. System przeszukuje bazę danych w poszukiwaniu filmow o danych gatunkach                
 4. System wyświetla listę kilku filmow i polek najlepiej spełniających kryteria wyszukiwania użytkownika
  5.Użytkownik ma możliwość ponownego wyszukania lub zobaczenia strony danego filmu z listy rekomendacji 
-6.Użytkownik dostaje listę rekomendowanych filmow na podstawie wprowadzonych informacj        Scenariusze poboczne:
-2a.Użytkownik rezygnuje z wybor.
+6.Użytkownik dostaje listę rekomendowanych filmow na podstawie wprowadzonych informacji       
+
+Scenariusze poboczne:
+2a.Użytkownik rezygnuje z wyboru.
 2b. Użytkownik wybiera tylko jeden gatunek, ktorego nie wystarczy do rekomendacji.
 4a. System nie może odnaleźć strony, bo właściciel usunął film  i wyświetla komunikat o błędzie.
 6a.Nie istnieją filmu spełniającego kryteria
@@ -82,14 +84,14 @@ Scenariusze poboczne
 use case: dodanie cytatu dnia
 aktorzy: super użytkownik 
 główny scenariusz: 
-1. System prosi użytkownika o wprowadzenie nowej cytaty dnia z dowolnego filmu.
-2. System prosi o dodaniu linku  do tego filmu z opisem.
+1. System prosi użytkownika o wprowadzenie nowego cytatu dnia z dowolnego filmu.
+2. System prosi o dodanie linku do tego filmu z opisem.
 3. Użytkownik wpisuje wymagane dane.
 4. System sprawdza poprawność wprowadzonych danych 
-5. System tworzy nową cytate i umieszcza ją w bazie danych.
+5. System tworzy nowy cytat i umieszcza go w bazie danych.
 Scenariusze poboczne:
 2a. System wyświetla błąd, bo film nie istnieje na stronie. 
-3a. Użytkownik rezygnuje z dodaniu cytatu.
+3a. Użytkownik rezygnuje z dodania cytatu.
 3b.Użytkownik dodał nieprawidłowe dane. 
 4a.System informuje użytkownika, które z wprowadzonych przez niego danych są nieprawidłowe 
-5a.System nie wyświetla nowej cytatu, bo ona nie zostala zaaktulizowana.
+5a.System nie wyświetla nowego cytatu, bo on nie został zaaktulizowany.

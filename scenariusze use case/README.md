@@ -29,6 +29,7 @@ główny scenariusz:
 2. Użytkownik wybiera jedna z tych polek.
 3.System otwiera nowa strone z wybrana polka
 4. System prezentuje informacje o filmach w wybranej półce.
+
 Scenariusze poboczne:
 1a. System nie wyświetla nowego rankingu półek, bo nie zostal zaktualizowany.
 2a. Użytkownik rezygnuje z wybora polek.

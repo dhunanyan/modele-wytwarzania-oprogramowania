@@ -793,8 +793,10 @@ Aktorzy: Administrator lub super użytkownik
 4. Aktor wprowadza zmiany w treści.
 5. Aktor wybiera opcję zapisz i system zostaje zaaktulizowany.
 
- Scenariusze poboczne: 
+ ### scenariusze poboczne:
+ 
 5a. Zmiany nie zostają zapisane
+
 Autor: Kamila Baizakova
 
 ### Use case - Usuwanie komentarzy

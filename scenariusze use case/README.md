@@ -25,9 +25,9 @@ główny scenariusz:
 
 aktorzy: gość, zalogowany użytkownik, super użytkownik
 główny scenariusz:  
-1.System wyświetla listę kilku najlepszych wedlug rankingu polek miesiąca. 
+1. System wyświetla listę kilku najlepszych wedlug rankingu polek miesiąca. 
 2. Użytkownik wybiera jedna z tych polek.
-3.System otwiera nowa strone z wybrana polka
+3. System otwiera nowa strone z wybrana polka
 4. System prezentuje informacje o filmach w wybranej półce.
 
 Scenariusze poboczne:

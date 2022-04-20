@@ -41,21 +41,21 @@ aktorzy: gość, zalogowany użytkownik, super użytkownik
 główny scenariusz:
 
    1. System wyświetla codziennie nowy cytat dnia.
-   2.Użytkownik czyta cytat dnia.
-   3.Użytkownik może przejść na stronę filmu z którego był wzięty cytat.
+   2. Użytkownik czyta cytat dnia.
+   3. Użytkownik może przejść na stronę filmu z którego był wzięty cytat.
    Scenariusze poboczne:
-   1a.System nie może odnaleźć cytatu, bo on nie został dodany.
+   1a. System nie może odnaleźć cytatu, bo on nie został dodany.
    3a. W systemie nie ma filmu z takim cytatem i występuje błąd.
 
 ### Use case - przeglądanie top 10 ranking filmów
 
 aktorzy: gość, zalogowany użytkownik, super użytkownik
 główny scenariusz:  
-1.System wyświetla listę 10 najlepszych wedlug rankingu filmow.
+1. System wyświetla listę 10 najlepszych wedlug rankingu filmow.
 2. Użytkownik wybiera jeden z tych filmow.
-3.System przekieruje Użytkownika na nowa strone
+3. System przekieruje Użytkownika na nowa strone
 4. System prezentuje informacje o filmach w wybranej półce.
-Scenariusze poboczne:
+ Scenariusze poboczne:
 1a. System nie wyświetla nowego rankingu filmów, bo nie zostal zaaktulizowany.
 2a. Użytkownik rezygnuje z wyboru filmu.
 3a. System nie może odnaleźć strony, bo właściciel usunął film i wyświetla komunikat o błędzie.
@@ -64,27 +64,28 @@ Scenariusze poboczne:
 
 aktorzy: zalogowany użytkownik, super użytkownik
 główny scenariusz:  
-1.System prosi użytkownika o zaznaczenie kilka gatunków filmu, które go interesują
+1. System prosi użytkownika o zaznaczenie kilka gatunków filmu, które go interesują
 2. Użytkownik spełnia polecenie i zatwierdza swój wybór 
-3. 3. System przeszukuje bazę danych w poszukiwaniu filmow o danych gatunkach  
+3. System przeszukuje bazę danych w poszukiwaniu filmow o danych gatunkach  
 4. System wyświetla listę kilku filmow i polek najlepiej spełniających kryteria wyszukiwania użytkownika
-5.Użytkownik ma możliwość ponownego wyszukania lub zobaczenia strony danego filmu z listy rekomendacji
-6.Użytkownik dostaje listę rekomendowanych filmow na podstawie wprowadzonych informacji
+5. Użytkownik ma możliwość ponownego wyszukania lub zobaczenia strony danego filmu z listy rekomendacji
+6. Użytkownik dostaje listę rekomendowanych filmow na podstawie wprowadzonych informacji
 
-Scenariusze poboczne:
-2a.Użytkownik rezygnuje z wyboru.
+ Scenariusze poboczne:
+2a. Użytkownik rezygnuje z wyboru.
 2b. Użytkownik wybiera tylko jeden gatunek, ktorego nie wystarczy do rekomendacji.
 4a. System nie może odnaleźć strony, bo właściciel usunął film i wyświetla komunikat o błędzie.
-6a.Nie istnieją filmu spełniającego kryteria
+6a. Nie istnieją filmu spełniającego kryteria
 
 ### Use case - śledzenie aktywności znajomego
 
 aktorzy: zalogowany użytkownik, super użytkownik
 główny scenariusz:
-1)Użytkownik widzi aktualna informacje o aktywnosci go znajomych.
-2)Użytkownik moze ukryc aktywnosc wybranego znajomego
-Scenariusze poboczne
-1a.Użytkownik nie widzi aktywnosci znajomego, bo jeszcze nie ma znajomych w systemie.
+1. Użytkownik widzi aktualna informacje o aktywnosci go znajomych.
+2. Użytkownik moze ukryc aktywnosc wybranego znajomego
+ 
+ Scenariusze poboczne
+1a. Użytkownik nie widzi aktywnosci znajomego, bo jeszcze nie ma znajomych w systemie.
 
 ### Use case - dodanie cytatu dnia
 
@@ -500,8 +501,11 @@ aktorzy: zalogowany użytkownik,
 super użytkownik
 
 główny scenariusz:
-1.dowolny z aktorów klika przycisk
-"usuń znajomego" w przeglądzie listy swoich znajomych. 2. Wyświetlenie monitu dot. potwierdzenia czynności (z opcją kontynuacji lub przerwania działania). 3. Użytkownik wybiera opcje kontynuacji działania (zatwierdza usuwanie). 4. Usuwany użytkownik z listy znajomych i usuwający znikają nawzajem ze swoich list znajomych.
+1. dowolny z aktorów klika przycisk
+"usuń znajomego" w przeglądzie listy swoich znajomych. 
+2. Wyświetlenie monitu dot. potwierdzenia czynności (z opcją kontynuacji lub przerwania działania). 
+3. Użytkownik wybiera opcje kontynuacji działania (zatwierdza usuwanie). 
+4. Usuwany użytkownik z listy znajomych i usuwający znikają nawzajem ze swoich list znajomych.
 
 scenariusze poboczne:
 
@@ -511,8 +515,14 @@ aktorzy: zalogowany użytkownik,
 super użytkownik
 
 główny scenariusz:
-1.dowolny z aktorów klika przycisk
-"wyślij wiadomość" w przeglądzie profilu wybranego użytkownika lub w panelu "moje konwersacje" wybiera użytkownika klikając na niego. 2. Pokaż użytkownikowi okno, w którym może wpisać wiadomość. 3. Użytkownik wpisuje wiadomość i klika "wyślij". 4. Wyślij wybranemu wcześniej użytkowniku wiadomość. 5. Powiadom otrzymującego, że dostał nową wiadomość. 6. otrzymujący klika w powiadomienie. 7. Pokaż otrzymującemu wiadomość, która do niego przyszła i miejsce do odpowiedzenia na nią. 8. odpowiadający pisze wiadomość i potem klika "odpowiedz". idź do punktu 4.
+1.  Dowolny z aktorów klika przycisk "wyślij wiadomość" w przeglądzie profilu wybranego użytkownika lub w panelu "moje konwersacje" wybiera użytkownika klikając na niego. 
+2. Pokaż użytkownikowi okno, w którym może wpisać wiadomość. 
+3. Użytkownik wpisuje wiadomość i klika "wyślij".
+4. Wyślij wybranemu wcześniej użytkowniku wiadomość. 
+5. Powiadom otrzymującego, że dostał nową wiadomość.
+6. Otrzymujący klika w powiadomienie.
+7. Pokaż otrzymującemu wiadomość, która do niego przyszła i miejsce do odpowiedzenia na nią.
+8. Odpowiadający pisze wiadomość i potem klika "odpowiedz". idź do punktu 4.
 
 scenariusze poboczne:
 3a. Użytkownik klika "anuluj".
@@ -524,7 +534,11 @@ scenariusze poboczne:
 aktorzy: admin
 
 główny scenariusz:
-1.admin wchodzi w profil użytkownika i klika "usuń konto". 2. Wyświetlenie monitu dot. potwierdzenia czynności (z opcją kontynuacji lub przerwania działania). 3. admin wybiera opcje kontynuacji działania (zatwierdza usuwanie). 4. Wyślij wiadomość dot. usunięcia konta na adres e-mail usuwanego konta. 5. Usuń konto z systemu.
+1. Admin wchodzi w profil użytkownika i klika "usuń konto". 
+2. Wyświetlenie monitu dot. potwierdzenia czynności (z opcją kontynuacji lub przerwania działania). 
+3. Admin wybiera opcje kontynuacji działania (zatwierdza usuwanie). 
+4. Wyślij wiadomość dot. usunięcia konta na adres e-mail usuwanego konta. 
+5. Usuń konto z systemu.
 
 scenariusze poboczne:
 3a. admin wybiera opcję "anuluj".
@@ -534,10 +548,14 @@ scenariusze poboczne:
 aktorzy: admin, zalogowany użytkownik, super użytkownik
 
 główny scenariusz:
-1.Admin klika w profil użytkownika i klika "wyślij ostrzeżenie".
-2.Pokaż adminowi okno, w którym może wybrać powód ostrzeżenia i wpisać opcjonalny komentarz.
-3.Admin wybiera powód ostrzeżenia oraz wpisuje komentarz.
-4.Admin klika "wyślij". 5. Wyświetlenie monitu dot. potwierdzenia czynności (z opcją kontynuacji lub przerwania działania). 6. Admin wybiera opcje kontynuacji działania (zatwierdza wysyłanie ostrzeżenia). 7. Uzględnij to ostrzeżenie w systemie. 8. Wyślij do użytkownika wiadomość o ostrzeżeniu zawierającą wybrany powód i komentarz.
+1. Admin klika w profil użytkownika i klika "wyślij ostrzeżenie".
+2. Pokaż adminowi okno, w którym może wybrać powód ostrzeżenia i wpisać opcjonalny komentarz.
+3. Admin wybiera powód ostrzeżenia oraz wpisuje komentarz.
+4. Admin klika "wyślij". 
+5. Wyświetlenie monitu dot. potwierdzenia czynności (z opcją kontynuacji lub przerwania działania).
+6.  Admin wybiera opcje kontynuacji działania (zatwierdza wysyłanie ostrzeżenia). 
+7.  Uzględnij to ostrzeżenie w systemie. 
+8.  Wyślij do użytkownika wiadomość o ostrzeżeniu zawierającą wybrany powód i komentarz.
 
 scenariusze poboczne:
 3a. Admin klika "anuluj".
@@ -548,9 +566,13 @@ scenariusze poboczne:
 aktorzy: admin, zalogowany użytkownik, super użytkownik
 
 główny scenariusz:
-1.Admin klika w menu "wysłane ostrzeżenia".
-2.Pokaż listę wysłanych ostrzeżeń.
-3.Admin klika przy wybranym ostrzeżeniu w "cofnij ostrzeżenie". 4. Wyświetlenie monitu dot. potwierdzenia czynności (z opcją kontynuacji lub przerwania działania). 5. Admin wybiera opcje kontynuacji działania (zatwierdza cofanie ostrzeżenia). 6. Uzględnij to cofnięcie ostrzeżenia w systemie. 7. Wyślij do użytkownika wiadomość o cofnięciu ostrzeżenia zawierającą wybrany powód i komentarz.
+1. Admin klika w menu "wysłane ostrzeżenia".
+2. Pokaż listę wysłanych ostrzeżeń.
+3. Admin klika przy wybranym ostrzeżeniu w "cofnij ostrzeżenie". 
+4. Wyświetlenie monitu dot. potwierdzenia czynności (z opcją kontynuacji lub przerwania działania). 
+5. Admin wybiera opcje kontynuacji działania (zatwierdza cofanie ostrzeżenia). 
+6. Uzględnij to cofnięcie ostrzeżenia w systemie.
+7. Wyślij do użytkownika wiadomość o cofnięciu ostrzeżenia zawierającą wybrany powód i komentarz.
 
 scenariusze poboczne:
 5a. Admin klika "anuluj".
@@ -560,7 +582,11 @@ scenariusze poboczne:
 aktorzy: admin
 
 główny scenariusz:
-1.admin wchodzi w profil użytkownika i klika "zablokuj konto". 2. Wyświetlenie monitu dot. potwierdzenia czynności (z opcją kontynuacji lub przerwania działania). 3. admin wybiera opcje kontynuacji działania (zatwierdza blokowanie). 4. Wyślij wiadomość dot. zablokowania konta na adres e-mail blokowanego konta. 5. Zablokuj konto z systemu (uniemożliwij wykonywanie czynności inne niż dostępne niezalogowanemu użytkownikowi).
+1. Admin wchodzi w profil użytkownika i klika "zablokuj konto".
+2. Wyświetlenie monitu dot. potwierdzenia czynności (z opcją kontynuacji lub przerwania działania). 
+3. Admin wybiera opcje kontynuacji działania (zatwierdza blokowanie). 
+4. Wyślij wiadomość dot. zablokowania konta na adres e-mail blokowanego konta.
+5. Zablokuj konto z systemu (uniemożliwij wykonywanie czynności inne niż dostępne niezalogowanemu użytkownikowi).
 
 scenariusze poboczne:
 3a. admin wybiera opcję "anuluj".
@@ -667,7 +693,7 @@ Aktorzy: Administrator
 
 Scenariusze poboczne
 3a) Administrator wybiera opcję „anuluj”
-3ai)Film nie jest usuwany
+3ai) Film nie jest usuwany
 
 ### Use case - Edytowanie opisu filmu
 
@@ -690,9 +716,10 @@ Aktorzy: Administrator lub super użytkownik
 3. Aktor wybiera opcję „edytuj”
 4. Aktor wprowadza zmiany w treści.
 5. Aktor wybiera opcję zapisz i system zostaje zaaktulizowany.
-Scenariusze poboczne: 
+
+ Scenariusze poboczne: 
 5a. Zmiany nie zostają zapisane
-Kamila Baizakova
+Autor: Kamila Baizakova
 
 ### Use case - Usuwanie komentarzy
 

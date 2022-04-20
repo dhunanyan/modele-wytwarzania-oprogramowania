@@ -1,6 +1,8 @@
 # Use Case: Profil
 
 
+## Autor Poniższych: Antoni Lasoń
+
 ## Złożenie podania o status zaufanego użytkownika
 Aktorzy Użytkownik
 1. Wybranie opcji "złóż podanie o status zaufanego użytkownika"
@@ -57,4 +59,77 @@ Aktorzy: użytkownik lub super użytkownik lub Administrator
 4a1. Powrót do punktu 2
 5a. Podane hasła są różne
 5a1. Powrót do punktu 5
+
+
+
+## Autor poniższych: Dominik Kikla
+
+
+## use case: odbieranie statusu super user
+aktorzy: admin, super użytkownik
+
+główny scenariusz:
+1. Admin klika "odbierz status zaufany użytkownik" w przeglądzie profilu zaufanego użytkownika.
+2. Wyświetlenie monitu dot. potwierdzenia czynności (z opcją kontynuacji lub przerwania działania).
+3. admin wybiera opcje kontynuacji działania (zatwierdza cofanie statusu).
+4. Wyślij wiadomość dot. cofnięcia statusu zaufanego użytkownika do wcześniej wybranego zaufanego użytkownika.
+5. Zmień status wcześniej wybranego "zaufanego użytkownika" na "zalogowany użytkownik".
+
+### scenariusze poboczne:
+3a. admin wybiera opcję "anuluj".
+ 
+ 
+ 
+
+## use case: Zrezygnowanie ze statusu zaufanego użytkownika
+aktorzy: super użytkownik
+
+główny scenariusz:
+1. zaufany użytkownik klika w swoim profilu "zrezygnuj ze statusu zaufanego użytkownika".
+2. Wyświetlenie monitu dot. potwierdzenia czynności (z opcją kontynuacji lub przerwania działania).
+3. zaufany użytkownik wybiera opcje kontynuacji działania (zatwierdza cofanie statusu).
+4. Zmień status zaufanego użytkownika na "zalogowany użytkownik".
+5. Wyświetl komunikat o sukcesie operacji.
+
+### scenariusze poboczne:
+3a. zaufany użytkownik wybiera opcję "anuluj".
+
+
+
+
+## use case: zmiana adresu email
+aktorzy: super użytkownik, zaufany użytkownik, zalogowany użytkownik
+
+główny scenariusz:
+1. Aktor klika w edycji swojego profilu "zmień e-mail".
+2. Pokaż okno z możliwością wpisania nowego e-mail.
+3. Aktor (ten co w pkt 1) wpisuje nowy e-mail.
+4. Aktor klika "zatwierdź".
+5. Wyślij na nowy e-mail link potwierdzający.
+6. link zostaje kliknięty.
+7. Przypisz do konta aktora (tego co w pkt 1) nowy, wpisany przez niego e-mail.
+8. Wyswietl komunikat o powodzeniu.
+
+### scenariusze poboczne:
+3a. aktor (ten co w pkt 1) wybiera opcję "anuluj".
+6a. link nie zostaje kliknięty.
+6a1. Po upływie 24 godzin wyślij do aktora (tego co w pkt 1) wiadomość o niepowodzeniu zmiany e-mail.
+
+
+
+
+## use case: Przyznanie statusu super user
+aktorzy: admin, zalogowany użytkownik
+
+główny scenariusz:
+1. Admin w profilu zalogowanego użytkownika klika "przyznaj zaufanego użytkownika".
+2. Wyświetlenie monitu dot. potwierdzenia czynności (z opcją kontynuacji lub przerwania działania).
+3. Admin wybiera opcje kontynuacji działania.
+4. Zmień status wcześniej wybranego "zalogowany użytkownika" na "zaufany użytkownik".
+5. Pokaż komunikat o sukcesie.
+6. Wyślij wiadomość do zalogowanego użytkownika dot. zmiany jego uprawnień.
+
+
+### scenariusze poboczne:
+3a. Admin klika anuluj.
 

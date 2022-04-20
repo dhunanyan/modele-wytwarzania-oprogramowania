@@ -30,6 +30,26 @@ scenariusze poboczne:
 
 
 
+use case: zmiana adresu email
+aktorzy: super użytkownik, zaufany użytkownik, zalogowany użytkownik
+
+główny scenariusz:
+1. Aktor klika w edycji swojego profilu "zmień e-mail".
+2. Pokaż okno z możliwością wpisania nowego e-mail.
+3. Aktor (ten co w pkt 1) wpisuje nowy e-mail.
+4. Aktor klika "zatwierdź".
+5. Wyślij na nowy e-mail link potwierdzający.
+6. link zostaje kliknięty.
+7. Przypisz do konta aktora (tego co w pkt 1) nowy, wpisany przez niego e-mail.
+8. Wyswietl komunikat o powodzeniu.
+
+scenariusze poboczne:
+3a. aktor (ten co w pkt 1) wybiera opcję "anuluj".
+6a. link nie zostaje kliknięty.
+
+
+
+
 use case: Przyznanie statusu super user
 aktorzy: admin, zalogowany użytkownik
 

@@ -16,10 +16,11 @@ główny scenariusz:
 4. System sprawdza bazę danych.
 5. Jeśli dane są poprawne, system proponuje wszystkie możliwe opcji filmow.
 6. Uzytkownik wybiera jedna opcje i system pokazuje ten film na nowej stronie.
-   scenariusze poboczne:
-   3a. Użytkownik rezygnuje z wyszukiwania
-   5a. W systemie nie ma filmu o takiej nazwie
-   5b. Jeśli dane są nieprawidłowe to wystapi blad "Nie istnije taki film"
+   ### scenariusze poboczne:
+  
+3a. Użytkownik rezygnuje z wyszukiwania
+5a. W systemie nie ma filmu o takiej nazwie
+5b. Jeśli dane są nieprawidłowe to wystapi blad "Nie istnije taki film"
 
 ### Use case - przeglądanie popularnych półek miesiąca
 

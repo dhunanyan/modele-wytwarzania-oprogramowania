@@ -3,6 +3,7 @@
 ---
 
 ## STRONA GŁÓWNA
+Autor Poniższych: Kamila Baizakova
 
 ### Use case - wyszukiwanie filmów
 
@@ -24,8 +25,10 @@ główny scenariusz:
 
 aktorzy: gość, zalogowany użytkownik, super użytkownik
 główny scenariusz:  
-1.System wyświetla listę kilku najlepszych wedlug rankingu polek miesiąca. 2. Użytkownik wybiera jedna z tych polek.
-3.System otwiera nowa strone z wybrana polka 4. System prezentuje informacje o filmach w wybranej półce.
+1.System wyświetla listę kilku najlepszych wedlug rankingu polek miesiąca. 
+2. Użytkownik wybiera jedna z tych polek.
+3.System otwiera nowa strone z wybrana polka
+4. System prezentuje informacje o filmach w wybranej półce.
 Scenariusze poboczne:
 1a. System nie wyświetla nowego rankingu półek, bo nie zostal zaktualizowany.
 2a. Użytkownik rezygnuje z wybora polek.
@@ -36,7 +39,7 @@ Scenariusze poboczne:
 aktorzy: gość, zalogowany użytkownik, super użytkownik
 główny scenariusz:
 
-1. System wyświetla codziennie nowy cytat dnia.
+   1. System wyświetla codziennie nowy cytat dnia.
    2.Użytkownik czyta cytat dnia.
    3.Użytkownik może przejść na stronę filmu z którego był wzięty cytat.
    Scenariusze poboczne:
@@ -47,8 +50,10 @@ główny scenariusz:
 
 aktorzy: gość, zalogowany użytkownik, super użytkownik
 główny scenariusz:  
-1.System wyświetla listę 10 najlepszych wedlug rankingu filmow. 2. Użytkownik wybiera jeden z tych filmow.
-3.System przekieruje Użytkownika na nowa strone 4. System prezentuje informacje o filmach w wybranej półce.
+1.System wyświetla listę 10 najlepszych wedlug rankingu filmow.
+2. Użytkownik wybiera jeden z tych filmow.
+3.System przekieruje Użytkownika na nowa strone
+4. System prezentuje informacje o filmach w wybranej półce.
 Scenariusze poboczne:
 1a. System nie wyświetla nowego rankingu filmów, bo nie zostal zaaktulizowany.
 2a. Użytkownik rezygnuje z wyboru filmu.
@@ -58,7 +63,9 @@ Scenariusze poboczne:
 
 aktorzy: zalogowany użytkownik, super użytkownik
 główny scenariusz:  
-1.System prosi użytkownika o zaznaczenie kilka gatunków filmu, które go interesują 2. Użytkownik spełnia polecenie i zatwierdza swój wybór 3. System przeszukuje bazę danych w poszukiwaniu filmow o danych gatunkach  
+1.System prosi użytkownika o zaznaczenie kilka gatunków filmu, które go interesują
+2. Użytkownik spełnia polecenie i zatwierdza swój wybór 
+3. 3. System przeszukuje bazę danych w poszukiwaniu filmow o danych gatunkach  
 4. System wyświetla listę kilku filmow i polek najlepiej spełniających kryteria wyszukiwania użytkownika
 5.Użytkownik ma możliwość ponownego wyszukania lub zobaczenia strony danego filmu z listy rekomendacji
 6.Użytkownik dostaje listę rekomendowanych filmow na podstawie wprowadzonych informacji
@@ -677,7 +684,14 @@ Aktorzy: Administrator lub super użytkownik
 
 Aktorzy: Administrator lub super użytkownik
 
-1.
+1)System sprawdza poprawność napisanych komentarzy w programie. 
+2)Aktor wybiera komentarz potrzebujący edycji.
+3)Aktor wybiera opcję „edytuj”
+4)Aktor wprowadza zmiany w treści.
+5)Aktor wybiera opcję zapisz i system zostaje zaaktulizowany.
+Scenariusze poboczne: 
+5a)Zmiany nie zostają zapisane
+Kamila Baizakova
 
 ### Use case - Usuwanie komentarzy
 

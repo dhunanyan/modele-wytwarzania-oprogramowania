@@ -16,7 +16,8 @@
     - Jeżeli istnieje inne konto z podanym przez użytkownika mailem, to wyświetli się mały popup **Erroru** przy polu z mailem z komunikatem **'Użytkownik z podanym mailem już istnieje'**. Scenariusz będzie się powtarzać, dopóki użytkownik nie wpisze taki email, którego nie ma zarejestrowanego w systemie.
     - Jeżeli potwierdzające hasło wpisane przez użytkownika nie zgadza się z pierwszym, to usuwają się obie pola i wyświetla się mały popup **Erroru** przy polu z hasłem, z komunikatem **'Hasła się nie zgadzają'**. Scenariusz się powtarza, dopóki hasła wpisane przez użytkownika nie będą takie same.
   - Jeżeli po drodze nie napotkano na żadne inne błedy, to następuje **hashowanie** (szyfrowanie) hasła oraz generowanie **tokena** z podanym czasem wygaśnięcia, po czym użytkownik automatycznie loguje się do systemu i przekierowuje go na główną stronę bez możliwości cofania się do panelu rejestracji/logowania.
-  - Jeżeli natomiast napotkano na jakiekolwiek inne błędy, to wyświetla się duży popup **Erroru**, z komunikatem **Oops, coś poszło nie tak :(**.
+  - Jeżeli natomiast napotkano na jakiekolwiek inne błędy, to wyświetla się duży popup **Erroru**, z komunikatem  
+    **'Oops, coś poszło nie tak :('**.
 
 - Jeżeli natomiast wybrał logowanie to:
   - Wyświetla się panel logowania z wymaganymi pustymi polami do wprowadzenia:
@@ -27,4 +28,7 @@
     - Jeżeli nie ma w systemie konta z podanym przez użytkownika mailem, to wyświetli się mały popup **Erroru** przy polu z mailem z komunikatem **'Użytkownik z podanym mailem nie istnieje'**. Scenariusz będzie się powtarzać, dopóki użytkownik nie wpisze taki email, który jest zarejestrowy w systemie.
     - Jeżeli hasło wpisane przez użytkownika nie zgadza się z tym co jest w systemie, to usuwają się obie pola i wyświetla się mały popup **Erroru** przy polu z hasłem, z komunikatem **'Nie prawidłowe hasło lub email'**. Scenariusz się powtarza dopóki użytkownik nie wpisze takiego maila, który jest w systemie oraz dla hasło, które bedzię w bazie odpowiadać temu mailowi.
   - Jeżeli po drodze nie napotkano na żadne inne błedy, to następuje generowanie **tokena** z podanym czasem wygaśnięcia, po czym użytkownik loguje się do systemu i przekierowuje go na główną stronę bez możliwości cofania się do panelu rejestracji/logowania.
-  - Jeżeli natomiast napotkano na jakiekolwiek inne błędy, to wyświetla się duży popup **Erroru**, z komunikatem **Oops, coś poszło nie tak :(**.
+  - Jeżeli natomiast napotkano na jakiekolwiek inne błędy, to wyświetla się duży popup **Erroru**, z komunikatem  
+    **'Oops, coś poszło nie tak :('**.
+
+Davit Hunanyan

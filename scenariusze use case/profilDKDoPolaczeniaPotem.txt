@@ -1,1 +1,46 @@
-use case:
+use case: odbieranie statusu super user
+aktorzy: admin, super użytkownik
+
+główny scenariusz:
+1. Admin klika "odbierz status zaufany użytkownik" w przeglądzie profilu zaufanego użytkownika.
+2. Wyświetlenie monitu dot. potwierdzenia czynności (z opcją kontynuacji lub przerwania działania).
+3. admin wybiera opcje kontynuacji działania (zatwierdza cofanie statusu).
+4. Wyślij wiadomość dot. cofnięcia statusu zaufanego użytkownika do wcześniej wybranego zaufanego użytkownika.
+5. Zmień status wcześniej wybranego "zaufanego użytkownika" na "zalogowany użytkownik".
+
+scenariusze poboczne:
+3a. admin wybiera opcję "anuluj".
+ 
+ 
+ 
+
+use case: Zrezygnowanie ze statusu zaufanego użytkownika
+aktorzy: super użytkownik
+
+główny scenariusz:
+1. zaufany użytkownik klika w swoim profilu "zrezygnuj ze statusu zaufanego użytkownika".
+2. Wyświetlenie monitu dot. potwierdzenia czynności (z opcją kontynuacji lub przerwania działania).
+3. zaufany użytkownik wybiera opcje kontynuacji działania (zatwierdza cofanie statusu).
+4. Zmień status zaufanego użytkownika na "zalogowany użytkownik".
+5. Wyświetl komunikat o sukcesie operacji.
+
+scenariusze poboczne:
+3a. zaufany użytkownik wybiera opcję "anuluj".
+
+
+
+
+use case: Przyznanie statusu super user
+aktorzy: admin, zalogowany użytkownik
+
+główny scenariusz:
+1. 
+
+scenariusze poboczne:
+
+
+
+
+zmienianie hasła
+
+

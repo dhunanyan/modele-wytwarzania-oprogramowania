@@ -46,6 +46,7 @@ główny scenariusz:
 scenariusze poboczne:
 3a. aktor (ten co w pkt 1) wybiera opcję "anuluj".
 6a. link nie zostaje kliknięty.
+6a1. Po upływie 24 godzin wyślij do aktora (tego co w pkt 1) wiadomość o niepowodzeniu zmiany e-mail.
 
 
 
@@ -54,13 +55,14 @@ use case: Przyznanie statusu super user
 aktorzy: admin, zalogowany użytkownik
 
 główny scenariusz:
-1. 
+1. Admin w profilu zalogowanego użytkownika klika "przyznaj zaufanego użytkownika".
+2. Wyświetlenie monitu dot. potwierdzenia czynności (z opcją kontynuacji lub przerwania działania).
+3. Admin wybiera opcje kontynuacji działania.
+4. Zmień status wcześniej wybranego "zalogowany użytkownika" na "zaufany użytkownik".
+5. Pokaż komunikat o sukcesie.
+6. Wyślij wiadomość do zalogowanego użytkownika dot. zmiany jego uprawnień.
+
 
 scenariusze poboczne:
-
-
-
-
-zmienianie hasła
-
+3a. Admin klika anuluj.
 

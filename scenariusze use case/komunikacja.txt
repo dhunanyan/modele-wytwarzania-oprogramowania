@@ -1,0 +1,140 @@
+use case: dodawanie znajomego
+aktorzy: zalogowany użytkownik,
+		   super użytkownik
+
+główny scenariusz:
+1.dowolny z aktorów klika przycisk 
+"dodaj znajomego" w swoim profilu
+2. Umożliwij wpisaniu nazwy użytkownika
+3. Wyszukaj w systemie użytkownika o takiej nazwie.
+4. Powiadom użytkownika o podanej nazwie, że ma zaproszenie do znajomych.
+5a1. Użytkownik akceptuje zaproszenie
+5b1. Użytkownik odrzuca zaproszenie
+5a2. Użytkownicy zostają umieszczenie nawzajem na swoich listach znajomych.
+5b2. Użytkownik wysyłający zaproszenie dostaje komunikat o odrzuceniu zaproszenia.
+5a3. Użytkownik wysyłający zaproszenie dostaje komunikat o zaakceptowaniu zaproszenia.
+
+scenariusze poboczne:
+3a. W systemie nie ma użytkownika o takiej nazwie
+3a1. Wyświetl komunikat dot. nieistniejącego użytkownika
+
+
+
+
+use case: usunięcie znajomego
+aktorzy: zalogowany użytkownik,
+		   super użytkownik
+
+główny scenariusz:
+1.dowolny z aktorów klika przycisk 
+"usuń znajomego" w przeglądzie listy swoich znajomych.
+2. Wyświetlenie monitu dot. potwierdzenia czynności (z opcją kontynuacji lub przerwania działania).
+3. Użytkownik wybiera opcje kontynuacji działania (zatwierdza usuwanie).
+4. Usuwany użytkownik z listy znajomych i usuwający znikają nawzajem ze swoich list znajomych.
+
+scenariusze poboczne:
+
+
+
+use case: wysłanie wiadomości do innego usera
+aktorzy: zalogowany użytkownik,
+		   super użytkownik
+
+główny scenariusz:
+1.dowolny z aktorów klika przycisk 
+"wyślij wiadomość" w przeglądzie profilu wybranego użytkownika lub w panelu "moje konwersacje" wybiera użytkownika klikając na niego.
+2. Pokaż użytkownikowi okno, w którym może wpisać wiadomość.
+3. Użytkownik wpisuje wiadomość i klika "wyślij".
+4. Wyślij wybranemu wcześniej użytkowniku wiadomość.
+5. Powiadom otrzymującego, że dostał nową wiadomość.
+6. otrzymujący klika w powiadomienie.
+7. Pokaż otrzymującemu wiadomość, która do niego przyszła i miejsce do odpowiedzenia na nią.
+8. odpowiadający pisze wiadomość i potem klika "odpowiedz". idź do punktu 4.
+
+scenariusze poboczne:
+3a. Użytkownik klika "anuluj".
+6a. Otrzymujący klika w "moje konwersacje".
+6a1. Otrzymujący klika w wybranego użytkownika. idź do punktu 2.
+ 
+
+
+
+use case: usuwanie konta
+aktorzy: admin
+
+główny scenariusz:
+1.admin wchodzi w profil użytkownika i klika "usuń konto".
+2. Wyświetlenie monitu dot. potwierdzenia czynności (z opcją kontynuacji lub przerwania działania).
+3. admin wybiera opcje kontynuacji działania (zatwierdza usuwanie).
+4. Wyślij wiadomość dot. usunięcia konta na adres e-mail usuwanego konta.
+5. Usuń konto z systemu.
+
+scenariusze poboczne:
+3a. admin wybiera opcję "anuluj".
+ 
+
+
+
+use case: Wysłanie ostrzerzenia o naruszeniu regulaminu
+aktorzy: admin, zalogowany użytkownik, super użytkownik
+
+główny scenariusz:
+1.Admin klika w profil użytkownika i klika "wyślij ostrzeżenie".
+2.Pokaż adminowi okno, w którym może wybrać powód ostrzeżenia i wpisać opcjonalny komentarz.
+3.Admin wybiera powód ostrzeżenia oraz wpisuje komentarz.
+4.Admin klika "wyślij".
+5. Wyświetlenie monitu dot. potwierdzenia czynności (z opcją kontynuacji lub przerwania działania).
+6. Admin wybiera opcje kontynuacji działania (zatwierdza wysyłanie ostrzeżenia).
+7. Uzględnij to ostrzeżenie w systemie.
+8. Wyślij do użytkownika wiadomość o ostrzeżeniu zawierającą wybrany powód i komentarz.
+
+scenariusze poboczne:
+3a. Admin klika "anuluj".
+6a. Admin klika "anuluj". idź do 2.
+
+
+ 
+use case: Cofnięcie ostrzerzenia o naruszeniu regulaminu
+aktorzy: admin, zalogowany użytkownik, super użytkownik
+
+główny scenariusz:
+1.Admin klika w menu "wysłane ostrzeżenia".
+2.Pokaż listę wysłanych ostrzeżeń.
+3.Admin klika przy wybranym ostrzeżeniu w "cofnij ostrzeżenie".
+4. Wyświetlenie monitu dot. potwierdzenia czynności (z opcją kontynuacji lub przerwania działania).
+5. Admin wybiera opcje kontynuacji działania (zatwierdza cofanie ostrzeżenia).
+6. Uzględnij to cofnięcie ostrzeżenia w systemie.
+7. Wyślij do użytkownika wiadomość o cofnięciu ostrzeżenia zawierającą wybrany powód i komentarz.
+
+scenariusze poboczne:
+5a. Admin klika "anuluj".
+
+
+ 
+
+
+use case: blokowanie konta
+aktorzy: admin
+
+główny scenariusz:
+1.admin wchodzi w profil użytkownika i klika "zablokuj konto".
+2. Wyświetlenie monitu dot. potwierdzenia czynności (z opcją kontynuacji lub przerwania działania).
+3. admin wybiera opcje kontynuacji działania (zatwierdza blokowanie).
+4. Wyślij wiadomość dot. zablokowania konta na adres e-mail blokowanego konta.
+5. Zablokuj konto z systemu (uniemożliwij wykonywanie czynności inne niż dostępne niezalogowanemu użytkownikowi).
+
+scenariusze poboczne:
+3a. admin wybiera opcję "anuluj".
+ 
+
+
+
+
+
+
+
+
+
+
+
+

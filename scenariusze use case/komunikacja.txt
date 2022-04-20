@@ -128,13 +128,4 @@ scenariusze poboczne:
  
 
 
-
-
-
-
-
-
-
-
-
-
+autor: Dominik Kikla
